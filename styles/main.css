@@ -1,17 +1,24 @@
 /* HOME PAGE */
-
 body {
   margin: 0 !important;
   font-family: Roboto;
   justify-content: center;
-  overflow-x: none;
+  /* overflow-x: none; */
 }
 
+canvas {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  /* bottom: 0;
+  right: 0; */
+  background-color: white;
+}
 
 .home-body {
-  background-color: rbga(110, 97, 255, 0.10);
+  /* background-color: rbga(110, 97, 255, 0.10);
   background-image: url("./images/about-background-image.png") no-repeat center fixed;
-  background-size: cover;
+  background-size: cover; */
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
@@ -27,6 +34,7 @@ body {
 .mainBar {
   font-family: Roboto;
   height: 70vh;
+  left: 0;
   margin-left: 40px;
   margin-top: 40px;
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -262,10 +270,10 @@ button a {
   height: 11vh;
 }
 
-.mainHeader h1 {
+/* .mainHeader h1 {
   font-size: 40px;
   margin-left: 1rem;
-}
+} */
 
 .longlogo {
   height: auto;
@@ -274,7 +282,8 @@ button a {
 
 
 .longh1 {
-  margin-top: .7em !important;
+  font-size: 40px;
+  margin: 2.5rem;
   max-height: 5vh;
   text-shadow: 2px 1px 5px rgba(130,130,130, 50%)
 }
@@ -639,19 +648,128 @@ h6 {
 
 
 @media screen and (max-width: 600px) {
+
+  .wrapper {
+    display: block;
+    overflow-x: none;
+  }
+
+  .mainBar {
+    text-align: center;
+    height: 60vw;
+    width: 100%;
+    margin: auto;
+    padding-top: 2vh;
+
+  }
+
+  .mainBar img {
+    width: 40vw;
+    height: auto;
+  }
+
+
+  .sidenav {
+    display: flex;
+    justify-content: center;
+    /* height: 1vh; */
+    padding: 0;
+    width: 100%;
+    background-color: rgba(110,97,255, 10%);
+  }
+
+  .sidenav > a {
+    /* border: 1px solid red; */
+    flex: .3 auto;
+  }
+
   h1 {
-    font-size: 14px;
+    font-size: 7vw;
+    margin: 3vw;
   }
 
   h2 {
     font-size: 12px;
   }
 
+  h4 {
+    font-size: 1rem;;
+  }
+
+  .project-cards {
+    right: auto;
+    margin-left: 0;
+  }
+
+  .project-1 {
+    transition: none;
+    position: relative;
+    opacity: 1;
+    width: 100vw;
+  }
+
+  .project-2 {
+    transition: none;
+    position: relative;
+    opacity: 1;
+    width: 100vw;
+  }
+
   p {
-    font-size: 10px;
+    font-size: 1rem;
+  }
+
+
+/* LETS EAT */
+
+  .mainBarLong {
+    width: auto;
+    margin: auto;
+  }
+
+  .mainHeader {
+    display: block;
+    text-align: center;
+    height: 60vw;
+    margin: auto;
+    padding-top: 2vh;
+  }
+
+  .nav-bar-long {
+    display: none !important;
+  }
+
+  .intro {
+    display: block;
+  }
+
+  .letseat-hero {
+    display: none;
   }
 
   .left-text {
-    width: 100%;
+    margin: auto;
+    padding-left: 2rem;
   }
+
+  .overview {
+    display: block;
+  }
+
+  .overview-hero {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .project-1 {
+    width: 40vw;
+  }
+
+  .project-2 {
+    width: 40vw;
+  }
+
 }
