@@ -487,6 +487,7 @@ h6 {
   padding-top: 1rem;
   margin: 0 auto;
   width: fit-content;
+  color: #383838;
 }
 
 .h6-title {
@@ -496,6 +497,10 @@ h6 {
   border-radius: 0.4rem;
 }
 
+.h6-title li {
+  color: #383838;
+  line-height: 1.5;
+}
 
 /* user personas section */
 
@@ -647,6 +652,12 @@ h6 {
 }
 
 
+
+
+
+/******************* MEDIA QUERIES *********************/
+
+
 @media screen and (max-width: 600px) {
 
   .wrapper {
@@ -689,7 +700,7 @@ h6 {
   }
 
   h2 {
-    font-size: 12px;
+    font-size: 5vw;
   }
 
   h4 {
@@ -708,6 +719,13 @@ h6 {
     width: 100vw;
   }
 
+  .project-1:hover {
+    text-align: auto;
+    width: auto;
+    /* height: 30vh; */
+    opacity: 1;
+  }
+
   .project-2 {
     transition: none;
     position: relative;
@@ -717,30 +735,71 @@ h6 {
 
   p {
     font-size: 1rem;
+    max-width: 80vw;
   }
 
 
 /* LETS EAT */
 
+  .caseStudy {
+    height: auto;
+  }
+
   .mainBarLong {
-    width: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
     margin: auto;
   }
 
   .mainHeader {
     display: block;
     text-align: center;
-    height: 60vw;
+    height: auto;
     margin: auto;
     padding-top: 2vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .longh1 {
+    font-size: 7vw;
+    margin: 4vw;
   }
 
   .nav-bar-long {
     display: none !important;
   }
 
-  .intro {
+  .topnav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 2vw;
+    width: 100%;
+    background-color: rgba(110,97,255, 40%);
+  }
+
+  .topnav > a {
+    flex: .3 auto;
+    font-size: 18px;
+    padding: 6px 0px 10px 0px;
+    margin: 0;
+  }
+
+  .heroh1 {
+    font-size: 10vw;
+    text-shadow: none;
+    margin-left: 0;
+    padding-bottom: 1vh;
+  }
+
+  #intro {
     display: block;
+    padding-top: 0;
+
   }
 
   .letseat-hero {
@@ -750,6 +809,7 @@ h6 {
   .left-text {
     margin: auto;
     padding-left: 2rem;
+    padding-top: 2rem;
   }
 
   .overview {
@@ -759,6 +819,86 @@ h6 {
   .overview-hero {
     display: none;
   }
+
+  .ux-list {
+    display: block;
+    margin-left: 2rem;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .ux-list > div {
+    flex: none;
+    margin-bottom: 10vw;
+  }
+
+  .ux-list ul {
+    text-align: left;
+  }
+
+  .ux-list h5 {
+    margin: 0;
+    font-size: 5vw;
+  }
+
+  .ux-list li {
+    font-size: 4vw;
+  }
+
+  .survey-images {
+    display: block;
+    padding-left: 2rem;
+  }
+
+  .survey-images img {
+    padding-right: 0;
+    width: 75vw;
+  }
+
+  .left-text img {
+    display: none;
+  }
+
+  .takeaways {
+    display: block;
+    padding: 2rem;
+  }
+
+  .takeaways li {
+    line-height: 1.5;
+    color: #383838;
+  }
+
+  .takeaways ul {
+    padding-left: 2rem;
+  }
+
+  h6 {
+    margin-left: 2rem;
+    margin-right: 0;
+  }
+
+  .takeaways h6 {
+    margin-left: 2rem;
+  }
+
+
+  .personas {
+    margin-left: 0;
+  }
+
+  .user-persona-images img {
+    width: 90vw;
+  }
+
+
+
+
+  .takeaways img {
+    display: none;
+  }
+
+
 
 }
 
@@ -771,5 +911,15 @@ h6 {
   .project-2 {
     width: 40vw;
   }
+
+  .mainHeader h3 {
+    display: none;
+  }
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
 
 }
