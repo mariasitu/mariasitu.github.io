@@ -477,6 +477,7 @@ h5 {
 
 .charts {
   margin-left: 0;
+  padding-left: 0.7rem;
 }
 
 .survey-images img {
@@ -830,9 +831,19 @@ h6 {
     padding-right: 0;
   }
 
+  .mainHeader img {
+    width: 40vw;
+    height: auto;
+  }
+
   .longh1 {
     font-size: 7vw;
-    margin: 4vw;
+    margin: 3vw;
+    line-height: .5rem;
+  }
+
+  .longlogo {
+    max-width:none;
   }
 
   .nav-bar-long {
@@ -843,16 +854,18 @@ h6 {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin-top: 2vw;
+    margin-top: 4vw;
     width: 100%;
-    background-color: rgba(110,97,255, 40%);
+    background-color: #383838;
   }
 
   .topnav > a {
     flex: .3 auto;
     font-size: 18px;
+    font-weight: medium;
     padding: 6px 0px 10px 0px;
     margin: 0;
+    color: #fff;
   }
 
 
@@ -866,7 +879,10 @@ h6 {
   #intro {
     display: block;
     padding-top: 0;
+  }
 
+  .intro {
+    padding-bottom: 0;
   }
 
   .letseat-hero {
@@ -954,8 +970,14 @@ h6 {
     margin-left: 0;
   }
 
+  .persona-large {
+    display: none;
+  }
+
   .user-persona-images img {
-    width: 90vw;
+    width: 80vw;
+    padding-left: 2rem;
+    padding-right: 0;
   }
 
 
@@ -967,10 +989,18 @@ h6 {
     margin-left: 2rem ;
   }
 
+  .arch-text h5 {
+    padding-bottom: 1rem;
+  }
+
   .list-text {
     padding-left: 2rem;
     margin-left: 0;
     display: block;
+  }
+
+  .list-text ul {
+    margin: 0;
   }
 
   .comp-images {
@@ -985,6 +1015,38 @@ h6 {
   .user2 {
     display: block;
   }
+
+  .task-large {
+    display: none;
+  }
+
+  .user-task-images p {
+    display: none;
+  }
+
+  .wireframe-sketches img {
+    display: none;
+  }
+
+  .digital-wires img {
+    display: none;
+  }
+  .testing-images {
+    display: none;
+  }
+
+  .moodboard {
+    display: none;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .user2-large {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
