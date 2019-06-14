@@ -418,6 +418,7 @@ h2 {
 .ux-list {
   display: flex;
   margin: 0 10rem;
+  padding-bottom: 2rem;
   /* align-items: center;
   display: flex;
   justify-content: center;
@@ -779,6 +780,11 @@ h6 {
     margin-left: 0;
   }
 
+  .project-cards img {
+    width: 30vw;
+    height: auto;
+  }
+
   .project-1 {
     transition: none;
     position: relative;
@@ -879,6 +885,7 @@ h6 {
   #intro {
     display: block;
     padding-top: 0;
+    padding-bottom: 2rem;
   }
 
   .intro {
@@ -891,12 +898,12 @@ h6 {
 
   .left-text {
     margin: auto;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding: 2rem;
   }
 
   .overview {
     display: block;
+    padding: 0;
   }
 
   .overview-hero {
@@ -926,6 +933,14 @@ h6 {
 
   .ux-list li {
     font-size: 4vw;
+  }
+
+  .research {
+    padding: 0;
+  }
+
+  .competitive-analysis {
+    padding: 0;
   }
 
   .survey-images {
@@ -978,6 +993,20 @@ h6 {
     width: 80vw;
     padding-left: 2rem;
     padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .wireframe-sketches {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    width: auto;
+    height:auto;
+  }
+
+  .wireframe-sketches img {
+    width: 100%;
+    height:auto;
   }
 
 
@@ -987,14 +1016,20 @@ h6 {
 
   .arch-text {
     margin-left: 2rem ;
+    padding-top: 2rem;
   }
 
   .arch-text h5 {
     padding-bottom: 1rem;
   }
 
+  .arch-text h6 {
+    margin-top: 0;
+  }
+
   .list-text {
     padding-left: 2rem;
+    padding-top: 1rem;
     margin-left: 0;
     display: block;
   }
@@ -1005,6 +1040,7 @@ h6 {
 
   .comp-images {
     padding-left: 2rem;
+    padding-top: 0;
   }
 
   .comp-images img {
@@ -1024,13 +1060,26 @@ h6 {
     display: none;
   }
 
-  .wireframe-sketches img {
+  .sketches-large {
     display: none;
   }
 
-  .digital-wires img {
+  .sketches-mobile {
+    width: auto !important;
+    height: auto !important;
+  }
+
+
+  .digital-wires-large {
     display: none;
   }
+
+  .digital-wires-mobile {
+    height: auto !important;
+    width: auto !important;
+    padding: 0;
+  }
+
   .testing-images {
     display: none;
   }
@@ -1045,6 +1094,47 @@ h6 {
 
   .user2-large {
     display: none;
+  }
+
+  #iterations-mobile {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .no-display {
+    display: none;
+  }
+
+  #no-display {
+    display: none;
+  }
+
+  .user-persona-button {
+    margin-bottom: 2rem;
+    margin-top: 1em;
+  }
+
+  .comp-analysis-button {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  .brainstorming-image-mobile {
+    display: block;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin:0 !important;
+  }
+
+  .brainstorming-image-mobile img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brainstorming-image-mobile div {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
   }
 
 }
@@ -1067,6 +1157,25 @@ h6 {
     display: none;
   }
 
+  .sketches-mobile {
+    display: none;
+  }
+
+  #iterations-mobile {
+    display: none;
+  }
+
+  .digital-wires-mobile {
+    display: none;
+  }
+
+  #sketches-mobile {
+    display: none;
+  }
+
+  .brainstorming-image-mobile {
+    display: none;
+  }
 
 
 @media screen and (min-width: 1024px) {
