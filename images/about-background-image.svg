@@ -1,11 +1,11 @@
-<svg width="1490" height="1037" viewBox="0 0 1490 1037" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="1489" height="1035">
-<path d="M1489.98 1.00011C362.98 1.00014 250.48 8.2957 362.98 1.00011C475.48 -6.29549 414.98 1034 50.48 1031C-314.02 1028 1489.98 1034 1489.98 1034V1.00011Z" fill="black"/>
+<svg width="1491" height="1034" viewBox="0 0 1491 1034" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="0" width="1489" height="1034">
+<path d="M1490.98 0.000110626C363.98 0.000139363 262.5 4.76837e-07 364 0C465.5 -4.76837e-07 415.98 1033 51.4801 1030C-313.02 1027 1490.98 1033 1490.98 1033V0.000110626Z" fill="black"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="-156" y="1" width="1779" height="1186" fill="url(#pattern0)"/>
+<rect x="-155" y="3.8147e-06" width="1779" height="1186" fill="url(#pattern0)"/>
 </g>
-<path d="M1489 4.00011C362 4.00014 249.5 11.2957 362 4.00011C474.5 -3.29549 414 1037 49.4998 1034C-315 1031 1489 1037 1489 1037V4.00011Z" fill="black" fill-opacity="0.65"/>
+<path d="M1487 0.0382309C360.858 0.0382597 253 7.82116e-07 361 0C469 -7.82116e-07 412.818 1034 48.5959 1031C-315.626 1027.99 1487 1034 1487 1034V0.0382309Z" fill="black" fill-opacity="0.5"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.0001221) scale(0.0004884 0.000732601)"/>

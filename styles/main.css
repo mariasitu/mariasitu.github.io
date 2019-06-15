@@ -239,9 +239,38 @@ button a {
 /************* ABOUT PAGE ***********/
 
 .about-body {
-  background-image: url("../images/about-background-image.png");
+  background-image: url("../images/about-background-image.svg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.main-bio {
+  display: block;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.main-bio h3 {
+  color: white;
+  font-size: 2rem;
+}
+
+.bio-yellow {
+  color: #ffe660;
+}
+
+.bio-purple {
+  color: #d3d0ff;
+}
+
+.bio-paragraph {
+  margin-left: 18rem;
+}
+
+.bio-paragraph p {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #fff;
 }
 
 /************* LETS EAT CASE STUDY PAGE ***********/
@@ -811,6 +840,28 @@ h6 {
     max-width: 80vw;
   }
 
+
+/* ABOUT PAGE */
+  .about-body {
+    background-image: none;
+  }
+
+  .main-bio {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .main-bio h3 {
+    color: #383838;
+  }
+
+  .bio-paragraph {
+    margin-left: 0;
+  }
+
+  .bio-paragraph p {
+    color: #383838;
+  }
 
 /* LETS EAT */
 
