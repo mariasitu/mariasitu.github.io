@@ -11,13 +11,14 @@ html,body {
 
 
 body {
-  /* background-image: url("../images/background-image.svg");
+  background-image: url("../images/background-image.svg");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  z-index: -2; */
+  z-index: -2;
 }
+
 canvas {
   position: absolute;
   height: 100vh;
@@ -1209,6 +1210,9 @@ h6 {
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
+/* INDEX */
+
+
   .project-1 {
     width: 40vw;
   }
@@ -1250,6 +1254,35 @@ h6 {
   .heroh1 {
     margin-bottom: 2rem;
   }
+/* ABOUT PAGE */
+
+  .about-body {
+    background-image: url(../images/about-background-mobile.svg);
+    background-size: cover;
+  }
+
+  .main-bio {
+    margin-left: auto;
+  }
+
+  .main-bio h3 {
+    font-size: 1.2rem;
+  }
+
+  .bio-paragraph {
+    margin-left: auto;
+  }
+
+  .mainBar img {
+    width: 30vw;
+  }
+
+  .mainBar h1 {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+/* CASE STUDY */
 
   #intro {
     padding-top: 0;
@@ -1365,8 +1398,4 @@ h6 {
 
 
 @media screen and (min-width: 1024px) {
-
-}
-
-
-}
+  }
