@@ -9,23 +9,31 @@ html,body {
   overflow-x: hidden;
 }
 
+
+body {
+  /* background-image: url("../images/background-image.svg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: -2; */
+}
 canvas {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  /* bottom: 0;
-  right: 0; */
+  bottom: 0;
+  right: 0;
   background-color: white;
 }
 
-.home-body {
-  /* background-color: rbga(110, 97, 255, 0.10);
-  background-image: url("./images/about-background-image.png") no-repeat center fixed;
-  background-size: cover; */
-  /* -webkit-background-size: cover;
+/* .home-body {
+  background-image: url("./images/background-image.svg");
+  background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; */
-}
+  -o-background-size: cover;
+} */
 
 
 .wrapper {
@@ -145,6 +153,7 @@ button {
 
 button a {
   text-decoration: none;
+  color: #383838;
 }
 
 
@@ -260,16 +269,19 @@ button a {
 }
 
 .bio-purple {
-  color: #d3d0ff;
+  color: #6E61FF;
 }
 
 .bio-paragraph {
-  margin-left: 18rem;
+  margin-left: 18.5rem;
+  overflow-y: scroll;
+  max-height: 50vh;
 }
 
 .bio-paragraph p {
   font-size: 1rem;
   line-height: 160%;
+  font-weight: 300;
   color: #fff;
 }
 
@@ -361,6 +373,7 @@ button a {
   padding-left: 4rem;
   padding-right: 4rem;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 
@@ -697,7 +710,7 @@ h6 {
 
 
 .wireframes {
-  background-color: rgba(110,97,255, 10%);
+  /* background-color: rgba(110,97,255, 10%); */
   padding-bottom: 1rem;
   padding-top: 2rem;
 }
@@ -756,6 +769,10 @@ h6 {
 
 
 @media screen and (max-width: 600px) {
+
+  body {
+    background-image: none;
+  }
 
   .wrapper {
     display: block;
@@ -1190,7 +1207,7 @@ h6 {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
   .project-1 {
     width: 40vw;
@@ -1200,8 +1217,126 @@ h6 {
     width: 40vw;
   }
 
+  .mainHeader {
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .mainHeader h3 {
     display: none;
+  }
+
+  .topnav {
+    padding-top: 3.5vh;
+  }
+
+  #caseNavBar {
+    height: auto;
+    width: 100%;
+    padding-bottom: 1.5vh;
+  }
+
+  #caseNavBar > a {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  }
+
+  .longh1 {
+    margin-left: 1rem;
+  }
+
+  .heroh1 {
+    margin-bottom: 2rem;
+  }
+
+  #intro {
+    padding-top: 0;
+  }
+
+  .left-text {
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 400px;
+    min-width: 40vw;
+  }
+
+  .problem,.solution {
+    max-width: 40vw;
+    min-width: 40vw;
+    margin-right:0;
+  }
+
+  .letseat-hero img {
+    padding-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .overview-hero img {
+    max-width: 45vw;
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+
+  .ux-list {
+    padding-top: 2rem;
+  }
+
+  .survey-images {
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .user-persona-images {
+    justify-content: center;
+  }
+
+  .personas {
+    margin-left: 4rem;
+  }
+
+  .comp-images {
+    padding-top: 1rem;
+  }
+
+  .comp-images img {
+    height: 100%;
+    width: 27vw;
+  }
+
+  .arch-text {
+    padding-top: 2rem;
+    margin-left: 3rem;
+
+  }
+
+  .list-text {
+    padding-left: 3rem;
+  }
+
+  .wireframes {
+    padding-top: 0;
+    padding-bottom: .1rem;
+  }
+
+  .user-persona-button {
+    margin-bottom: 2rem;
+  }
+
+  .comp-analysis-button {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  .final-logo {
+    width: 70vw !important;
+  }
+
+  .left-text img {
+    width: 70vw;
   }
 
   .persona-mobile {

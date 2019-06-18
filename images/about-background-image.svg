@@ -5,7 +5,7 @@
 <g mask="url(#mask0)">
 <rect x="-155" y="3.8147e-06" width="1779" height="1186" fill="url(#pattern0)"/>
 </g>
-<path d="M1487 0.0382309C360.858 0.0382597 253 7.82116e-07 361 0C469 -7.82116e-07 412.818 1034 48.5959 1031C-315.626 1027.99 1487 1034 1487 1034V0.0382309Z" fill="black" fill-opacity="0.5"/>
+<path d="M1487 0.0382309C360.858 0.0382597 253 7.82116e-07 361 0C469 -7.82116e-07 412.818 1034 48.5959 1031C-315.626 1027.99 1487 1034 1487 1034V0.0382309Z" fill="black" fill-opacity="0.65"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.0001221) scale(0.0004884 0.000732601)"/>

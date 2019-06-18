@@ -5,7 +5,7 @@ var w = c.width = window.innerWidth,
 
     minDist = 20,
     maxDist = 40,
-    initialWidth = 2,
+    initialWidth = 3,
     maxLines = 50,
     initialLines = 40,
     speed = 1,
