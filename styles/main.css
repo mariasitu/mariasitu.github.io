@@ -10,31 +10,26 @@ html,body {
 }
 
 
-body {
-  background-image: url("../images/background-image.svg");
-  background-size: cover;
-  -webkit-background-size: cover;
+.home-body {
+  background-image: url("../images/background-stripes.jpg");
+  background-size: contain;
+  background-position: 25% 50%;
+  background-repeat: no-repeat;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   z-index: -2;
 }
 
-canvas {
+/* canvas {
   position: absolute;
   height: 100vh;
   width: 100vw;
   bottom: 0;
   right: 0;
   background-color: white;
-}
-
-/* .home-body {
-  background-image: url("./images/background-image.svg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 } */
+
 
 
 .wrapper {
@@ -120,7 +115,7 @@ p {
 
 
 .main-card {
-  background-color: #6e61ff;
+  background-color: #383838;
   /* flex-direction: column; */
   font-size: 1.2rem;
   position: relative;
@@ -129,8 +124,10 @@ p {
 }
 
 .project-cards button {
-  border-radius: 0 !important;
+  border-radius: 0 0 .4rem .4rem;
   border-width: 0;
+  position: relative;
+  bottom: 0;
 }
 
 .main-card a {
@@ -160,11 +157,12 @@ button a {
 
 .project-cards {
   display: block;
-  height: auto;
+  height: 100%;
   margin-left: 3vw;
+  margin-top: 5rem;
   overflow-x: none;
-  overflow-y: none;
-  /* padding-top: 3vh; */
+  overflow-y: scroll;
+  padding-top: 3vh;
   padding-bottom: 3vh;
   position: absolute;
   text-align: center;
@@ -173,44 +171,46 @@ button a {
 
 
 .project-1 {
-  background-color: #fff;
-  border-radius: 0.3rem;
-  box-shadow: 2px 2px 4px rgba(0,0,0,25%);
-  /* height: 30vh; */
-  /* display: inline-block; */
-  margin-top: 3vh;
+  background-color: rgba(110,97,255,5%);
+  border-radius: 0.4rem;
+  border-width: .4px;
+  border-style: solid;
+  border-color: #fdfdfd;
+  box-shadow: 20px 16px 20px 4px rgba(0,0,0,25%);
+  margin-bottom: 3rem;
   padding-top: 5vh;
-  /* right: 0; */
-  /* position: relative; */
   text-align: center;
-  width: 30vw;
+  height: auto;
+  width: 60vw;
   opacity: 0.7;
-  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
-  transition: width 1s, height 1s;
+  right: 0;
+  /* -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  /*transition: width 1s, height 1s; */
 }
 
 .project-2 {
-  background-color: #fff;
-  border-radius: 0.3rem;
-  box-shadow: 2px 2px 4px rgba(0,0,0,25%);
-  /* height: 30vh; */
-  /* display: inline-block; */
+  background-color: rgba(255,230,96,10%);
+  border-radius: 0.4rem;
+  border-width: .4px;
+  border-style: solid;
+  border-color: #fdfdfd;
+  box-shadow: 20px 16px 20px 4px rgba(0,0,0,25%);
   margin-top: 5vh;
+  margin-bottom: 3rem;
   padding-top: 5vh;
-  position: absolute;
   text-align: center;
+  height: auto;
   right: 0;
-  width: 30vw;
+  width: 60vw;
   opacity: 0.7;
-  margin-bottom: 3vh;
-  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
-  transition: width 1s, height 1s;
+  /* -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  /*transition: width 1s, height 1s; */
 }
 
 
 .project-1:hover {
   text-align: center;
-  width: 45vw;
+  /* width: 65vw; */
   /* height: 30vh; */
   opacity: 1;
 }
@@ -218,20 +218,21 @@ button a {
 
 .project-2:hover {
   text-align: center;
-  width: 45vw;
+  /* width: 65vw; */
   /* height: 30vh; */
   opacity: 1;
 }
 
 
 .project-cards p {
+  font-size: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300px;
+  max-width: 30vw;
   /* padding-bottom: 4vh; */
   padding-left: 3rem;
   text-align: center;
-  /* margin-bottom: 0 !important; */
+  margin-bottom: 8vh;
 }
 
 
@@ -242,7 +243,7 @@ button a {
 
 .project-cards img {
   height: auto;
-  width: 8vw;
+  width: 13vw;
 }
 
 
@@ -256,14 +257,44 @@ button a {
 
 .main-bio {
   display: block;
-  margin-left: 12rem;
-  margin-top: 2rem;
+  /* margin-left: 12rem; */
+  margin-top: 4rem;
+  position: absolute;
+  right: 0;
+  background-color: rgba(255,253,244,20%);
+  box-shadow: 10px 8px 10px 2px rgba(0,0,0,25%);
+  border-radius: 3%;
+  border-style: solid;
+  border-color: #fdfdfd;
+  border-width: .5px;
+  max-width: 60vw;
 }
 
 .main-bio h3 {
-  color: white;
+  color: #383838;
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
+
+
+.bio {
+  display: flex;
+  margin-top: 2rem;
+  /* margin-right: 2rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+
+}
+
+.profile-picture img {
+  height: 50vh;
+  width: auto;
+  border-radius: 3%;
+  /* border-radius: 7%; */
+}
+
 
 .bio-yellow {
   color: #ffe660;
@@ -274,16 +305,17 @@ button a {
 }
 
 .bio-paragraph {
-  margin-left: 18.5rem;
+  margin-left: 3rem;
   overflow-y: scroll;
   max-height: 50vh;
+  /* margin-right: 2.5rem; */
 }
 
 .bio-paragraph p {
   font-size: 1rem;
   line-height: 160%;
   font-weight: 300;
-  color: #fff;
+  color: #383838;
 }
 
 /************* LETS EAT CASE STUDY PAGE ***********/
@@ -326,6 +358,11 @@ button a {
   margin: 2.5rem;
   max-height: 5vh;
   text-shadow: 2px 1px 5px rgba(130,130,130, 50%)
+}
+
+.longh1 a {
+  text-decoration: none;
+  color: #383838;
 }
 
 
@@ -769,9 +806,9 @@ h6 {
 /******************* MEDIA QUERIES *********************/
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
 
-  body {
+  .home-body {
     background-image: none;
   }
 
@@ -825,6 +862,9 @@ h6 {
   .project-cards {
     right: auto;
     margin-left: 0;
+    overflow-y: none;
+    margin-top: 1rem;
+    height: auto;
   }
 
   .project-cards img {
@@ -833,10 +873,11 @@ h6 {
   }
 
   .project-1 {
+    background-color: #fff;
     transition: none;
     position: relative;
     opacity: 1;
-    width: 100vw;
+    width: auto;
   }
 
   .project-1:hover {
@@ -844,6 +885,12 @@ h6 {
     width: auto;
     /* height: 30vh; */
     opacity: 1;
+  }
+
+  .project-cards p {
+    font-size: 1rem;
+    /* margin: 0 auto; */
+    max-width: none;
   }
 
   .project-2 {
@@ -864,21 +911,47 @@ h6 {
     background-image: none;
   }
 
+  .mainBar {
+    height: 55vw;
+  }
+
   .main-bio {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 0rem;
+    position: relative;
+    background-color: none;
+    box-shadow: none;
+    border-radius: none;
+    border-style: none;
+    border-color: none;
+    border-width: none;
+    max-width: none;
   }
 
   .main-bio h3 {
     color: #383838;
+    font-size: 1.5rem;
+  }
+
+  .bio {
+    display: block;
+    padding-left: .5rem;
+    margin-top: 1rem;
   }
 
   .bio-paragraph {
     margin-left: 0;
+    max-height: none;
   }
 
   .bio-paragraph p {
     color: #383838;
+  }
+
+  .profile-picture img {
+    width: 80vw;
+    height: auto;
   }
 
 /* LETS EAT */
@@ -1133,7 +1206,7 @@ h6 {
     display: none;
   }
 
-  .sketches-mobile {
+  #sketches-mobile {
     width: auto !important;
     height: auto !important;
   }
@@ -1214,11 +1287,21 @@ h6 {
 
 
   .project-1 {
-    width: 40vw;
+    width: 55vw;
+    opacity: 1;
   }
 
   .project-2 {
-    width: 40vw;
+    width: 55vw;
+    opacity: 1;
+  }
+
+  .project-cards img {
+    width: 17vw;
+  }
+
+  .project-cards p {
+    font-size: 1.2rem;
   }
 
   .mainHeader {
@@ -1262,15 +1345,34 @@ h6 {
   }
 
   .main-bio {
-    margin-left: auto;
+    background-color: #fff;
+    margin-top: 4rem;
+    padding-left: 1rem;
+    overflow-y: scroll;
+    max-width: 55vw;
+    max-height: 80vh;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   .main-bio h3 {
     font-size: 1.2rem;
   }
 
+  .bio {
+    display: block;
+    margin-top: .5rem;
+  }
+
   .bio-paragraph {
-    margin-left: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .profile-picture img {
+    width: 50vw;
+    height: auto;
   }
 
   .mainBar img {
@@ -1396,6 +1498,28 @@ h6 {
     display: none;
   }
 
+}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
+
+  .mainHeader h3 {
+    display: none;
   }
+
+  .persona-mobile {
+    display: none;
+  }
+
+  #sketches-mobile {
+    display: none;
+  }
+
+  #iterations-mobile {
+    display: none;
+  }
+
+  .brainstorming-image-mobile {
+    display: none;
+  }
+
+}
