@@ -339,7 +339,7 @@ button a {
   display: flex;
   padding-left: 3rem;
   padding-right: 3rem;
-  height: 11vh;
+  height: 8vh;
 }
 
 /* .mainHeader h1 {
@@ -348,16 +348,19 @@ button a {
 } */
 
 .longlogo {
-  height: auto;
-  max-width: 120px;
+  max-height: 5vh;
+  width: auto;
+  padding-top:.7rem;
 }
 
 
 .longh1 {
-  font-size: 40px;
-  margin: 2.5rem;
-  max-height: 5vh;
-  text-shadow: 2px 1px 5px rgba(130,130,130, 50%)
+  font-size: 2.5vw;
+  margin-left: 1.5rem;
+  margin-top: 1.6rem;
+  /* max-height: 5vh; */
+  text-shadow: 2px 1px 5px rgba(130,130,130, 50%);
+  white-space: nowrap;
 }
 
 .longh1 a {
@@ -373,13 +376,14 @@ button a {
   /* max-height: 5vh; */
   order: 2;
   padding-left: 2em;
-  padding-top: 4vh;
+  padding-top: 1.5rem;
+  white-space: nowrap;
 }
 
 
 .topnav a {
   color: #383838;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: Roboto;
   font-weight: lighter;
   margin-left: 1rem;
@@ -388,18 +392,25 @@ button a {
 }
 
 .topnav a:hover {
-  font-size: 26px;
+  font-size: 1.2rem;
   text-decoration: underline;
   text-decoration-color: rgba(255,230,96,100%);
+}
+
+.header-background {
+  height: 1rem;
+  width: 100%;
 }
 
 #caseNavBar {
   background-color: #383838;
   display: flex;
-  height: 5vh;
+  /* height: 4vh; */
   justify-content: center;
-  padding-top: 1.5vh;
+  padding-top: .7rem;
+  padding-bottom:.7rem;
   text-align: center;
+  margin-top: .7rem;
 }
 
 
@@ -806,7 +817,7 @@ h6 {
 /******************* MEDIA QUERIES *********************/
 
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
 
   .home-body {
     background-image: none;
@@ -1280,6 +1291,11 @@ h6 {
   }
 
 }
+@media screen and (min-width: 601px){
+  .mainHeader h3 {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
@@ -1330,9 +1346,7 @@ h6 {
   padding-right: 0;
   }
 
-  .longh1 {
-    margin-left: 1rem;
-  }
+
 
   .heroh1 {
     margin-bottom: 2rem;
@@ -1500,7 +1514,11 @@ h6 {
 
 }
 
-@media screen and (min-width: 1026px) {
+@media screen and (min-width: 1025px) {
+
+  /* .topnav a {
+    font-size: 1.4rem;
+  } */
 
   .mainHeader h3 {
     display: none;
