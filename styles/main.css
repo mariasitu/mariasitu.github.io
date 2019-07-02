@@ -1,12 +1,13 @@
 /* HOME PAGE */
 html,body {
   margin: 0;
-  font-family: Roboto,sans-serif;
+  font-family: 'Roboto',sans-serif;
   justify-content: center;
   width: 100%;
   height: 100%;
   padding: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 footer {
@@ -38,7 +39,7 @@ footer p {
 
 
 .mainBar {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   height: 70vh;
   left: 0;
   margin-left: 40px;
@@ -48,7 +49,7 @@ footer p {
 
 h1 {
   color: #383838;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   font-size: 44px;
   margin-top: 50px;
@@ -60,7 +61,7 @@ h1 {
 
 h3 {
   color: #6e61ff;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: normal;
@@ -70,7 +71,7 @@ h3 {
 
 
 h4 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: normal;
   margin-top: 1vh;
@@ -79,7 +80,7 @@ h4 {
 
 p {
   color: #383838;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   line-height: 160%;
 }
@@ -127,12 +128,12 @@ button a {
 
 
 .project-cards {
-  display: block;
+  display: flex;
   height: auto;
   margin: auto;
   overflow-x: none;
-  padding-top: 7vh;
-  padding-bottom: 3vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   text-align: center;
 }
 
@@ -145,9 +146,9 @@ button a {
   border-color: #f7f7f7;
   /* box-shadow: 10px 8px 10px 2px rgba(110,97,255, 12%); */
   text-align: center;
-  width: 60vw;
+  width: 35vw;
   height: auto;
-  opacity: 1;
+  opacity: .7;
 }
 
 .project-2 {
@@ -159,9 +160,9 @@ button a {
   /* box-shadow: 10px 8px 10px 2px rgba(110,97,255, 12%) */
   text-align: center;
   height: auto;
-  width: 60vw;
-  margin-top: 4rem;
-  opacity: 1;
+  margin-left: 1.5rem;
+  width: 35vw;
+  opacity: .7;
 }
 
 .project-1 img {
@@ -201,14 +202,14 @@ button a {
   text-align: center;
 }
 
-.project-cards img {
-  height: auto;
-  width: 13vw;
+
+.headings-h3 a {
+  text-decoration: none;
 }
 
 #see-work {
   margin-top: 14rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 3s infinite;
@@ -253,16 +254,16 @@ button a {
 
 .about-headings {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .about-headings > h3 {
-  flex: .1 auto;
+  flex: .2 auto;
 }
 
 .about-headings h3 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: bolder;
 }
 
 .headings-h3 {
@@ -289,9 +290,11 @@ button a {
   color: #f7d830;
 }
 
+
 .bio-purple {
   color: #6E61FF;
 }
+
 
 .bio-paragraph {
   overflow-y: none;
@@ -316,7 +319,7 @@ button a {
 }
 
 .footer-headings > h3 {
-
+  flex: .2 auto;
 }
 
 .footer-headings a {
@@ -328,6 +331,12 @@ button a {
   font-size: 1rem;
   font-weight: 500;
 }
+
+.footer-headings a:hover {
+  text-decoration: underline;
+  text-decoration-color: #6E61FF;
+}
+
 
 /************* LETS EAT CASE STUDY PAGE ***********/
 
@@ -395,7 +404,7 @@ button a {
 .topnav a {
   color: #383838;
   font-size: 1rem;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -427,9 +436,9 @@ button a {
 
 
 #caseNavBar a {
-  color: #383838;
-  font-family: Roboto;
-  font-size: 1.2rem;
+  color: #6e61ff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -479,9 +488,9 @@ button a {
 
 
 .heroh1 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 5vw;
-  font-weight: 500;
+  font-weight: 900;
   text-shadow: none;
   margin-bottom: 3rem;
 }
@@ -503,18 +512,21 @@ button a {
   max-width: 80vw;
 }
 
+.overview-hero {
+  padding-top: 2rem;
+}
 
 .overview-hero img {
   height: auto;
   max-width: 40vw;
   min-width: 40vw;
-  padding-left: 3vw;
+  padding-left: 2vw;
 }
 
 
 h2 {
   color: #383838;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 24px;
   border-bottom: 3px solid #FFE660;
@@ -840,6 +852,7 @@ h6 {
   .headings-h3 {
     text-align: left;
   }
+
 
   #see-work {
     margin-top: 3rem;
