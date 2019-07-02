@@ -126,6 +126,20 @@ button a {
   color: #383838;
 }
 
+button:hover {
+  background-color: #6e61ff;
+  color: #fff;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
 
 .project-cards {
   display: flex;
@@ -318,6 +332,11 @@ button a {
   padding-bottom: 2rem;
 }
 
+.footer-headings h3 {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+
 .footer-headings > h3 {
   flex: .2 auto;
 }
@@ -327,14 +346,17 @@ button a {
   flex: .3 auto;
 }
 
-.footer-headings h3 {
-  font-size: 1rem;
-  font-weight: 500;
-}
-
 .footer-headings a:hover {
   text-decoration: underline;
   text-decoration-color: #6E61FF;
+}
+
+/* .footer-headings a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%236e61ff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: 3px 4px;
+  background-repeat: no-repeat;
+  text-decoration: none; */
 }
 
 
@@ -424,7 +446,7 @@ button a {
 
 #caseNavBar {
   background-color: #fff;
-  border: 1px solid #d3d0ff;
+  border: 1px solid #383838;
   display: flex;
   /* height: 4vh; */
   justify-content: center;
@@ -448,7 +470,7 @@ button a {
 
 .nav-bar-long {
   padding-top: .7rem !important;
-  border: 0.3px solid #d3d0ff !important;
+  border: 0.3px solid #383838 !important;
 }
 
 
@@ -493,6 +515,10 @@ button a {
   font-weight: 900;
   text-shadow: none;
   margin-bottom: 3rem;
+}
+
+.letseat-hero {
+  padding-top: 4rem;
 }
 
 
@@ -877,18 +903,6 @@ h6 {
     height: auto;
   }
 
-/*
-  .sidenav {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    width: 100%;
-    background-color: rgba(110,97,255, 10%);
-  }
-
-  .sidenav > a {
-    flex: .3 auto;
-  } */
 
   h1 {
     font-size: 7vw;
@@ -1046,7 +1060,7 @@ h6 {
     padding: 0;
     margin-top: 4vw;
     width: 100%;
-    background-color: #383838;
+    background-color: #6e61ff;
   }
 
   .topnav > a {
