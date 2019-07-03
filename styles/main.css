@@ -129,6 +129,7 @@ button a {
 button:hover {
   background-color: #6e61ff;
   color: #fff;
+  cursor: pointer;
 
 }
 
@@ -754,6 +755,10 @@ h6 {
   margin-top: 2rem;
 }
 
+#extra-space {
+  padding-left: 17%;
+}
+
 .list-text {
   display: flex;
   padding-left: 10rem;
@@ -800,7 +805,7 @@ h6 {
 
 .user-task-images img {
   height: auto;
-  width: 100%;
+  width: 80%;
 }
 
 
@@ -813,8 +818,8 @@ h6 {
 
 
 .testing-images {
-  height: 100% !important;
-  width: 100% !important;
+  height: auto !important;
+  width: 80% !important;
 }
 
 
@@ -841,7 +846,7 @@ h6 {
 
 
 .brainstorming-image img {
-  width: 80vw;
+  width: 80%;
   height: auto;
 }
 
