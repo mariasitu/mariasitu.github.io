@@ -161,7 +161,7 @@ button:active {
   border-color: #f7f7f7;
   /* box-shadow: 10px 8px 10px 2px rgba(110,97,255, 12%); */
   text-align: center;
-  width: 35vw;
+  width: 40vw;
   height: auto;
   opacity: .7;
 }
@@ -176,7 +176,7 @@ button:active {
   text-align: center;
   height: auto;
   margin-left: 1.5rem;
-  width: 35vw;
+  width: 40vw;
   opacity: .7;
 }
 
@@ -273,7 +273,7 @@ button:active {
 }
 
 .about-headings > h3 {
-  flex: .2 auto;
+  flex: .1 auto;
 }
 
 .about-headings h3 {
@@ -371,12 +371,13 @@ button:active {
 
 
 .mainBarLong {
-  background-color: rgba(255,255,255, 50%);
+  background-color: rgba(255,255,255, 100%);
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+  box-shadow: 1px 2px 4px #6e61ff1c;
 }
 
 #white-background {
@@ -388,6 +389,7 @@ button:active {
   padding-left: 3rem;
   padding-right: 3rem;
   height: 8vh;
+  box-shadow: 1px 2px 4px rgba(0,0,0,12%);
 }
 
 
@@ -448,7 +450,7 @@ button:active {
 
 #caseNavBar {
   background-color: #fff;
-  border: 1px solid #383838;
+  border: 1px solid #f7f7f7;
   display: flex;
   /* height: 4vh; */
   justify-content: center;
@@ -456,6 +458,7 @@ button:active {
   padding-bottom:.7rem;
   text-align: center;
   /* margin-top: .7rem; */
+  box-shadow: 1px 2px 4px #6e61ff1c;
 }
 
 
@@ -472,7 +475,7 @@ button:active {
 
 .nav-bar-long {
   padding-top: .7rem !important;
-  border: 0.3px solid #383838 !important;
+  border: 0.3px solid #f7f7f7 !important;
 }
 
 
