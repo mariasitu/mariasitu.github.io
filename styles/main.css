@@ -19,6 +19,7 @@ footer {
 footer p {
   font-size: .7rem;
   margin: auto;
+  padding-right: 0;
 }
 
 
@@ -151,6 +152,7 @@ button:active {
   padding-top: 10vh;
   padding-bottom: 10vh;
   text-align: center;
+  max-width: 40vw;
 }
 
 
@@ -242,6 +244,62 @@ button:active {
     transform: translateY(-10px);
   }
 }
+
+
+/************* CONTACT PAGE ***********/
+
+.contact {
+  display: block !important;
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+}
+
+
+.contact-heading {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-heading p {
+  margin: auto !important;
+}
+
+.contact-heading a {
+  color: #6E61FF;
+  text-decoration: underline;
+  text-decoration-color: #FFE660;
+}
+
+
+form {
+  display: block;
+  margin-top: 10vh;
+  max-width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-color: #6e61ff5c;
+}
+
+textarea {
+  display: block;
+  font-size: 1.2rem;
+  min-height: 10vh;
+  width: 100%;
+  padding: .3rem;
+  margin-bottom: 1rem;
+  border-color: #6e61ff5c;
+}
+
 
 
 /************* ABOUT PAGE ***********/
@@ -1023,6 +1081,20 @@ h6 {
     display: block;
   }
 
+/* CONTACT */
+
+form {
+  max-width: 80%;
+}
+
+input {
+  width: auto;
+  border-color: #6e61ff5c;
+}
+
+textarea {
+  border-color: #6e61ff5c;
+}
 
 /* LETS EAT */
 
