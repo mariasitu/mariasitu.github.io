@@ -274,7 +274,7 @@ button:active {
 
 
 form {
-  display: block;
+  display: block !important;
   margin-top: 10vh;
   max-width: 30vw;
   margin-left: auto;
@@ -282,7 +282,7 @@ form {
 }
 
 input {
-  display: block;
+  display: block !important;
   width: 100%;
   padding: .3rem;
   font-size: 1.2rem;
@@ -291,7 +291,7 @@ input {
 }
 
 textarea {
-  display: block;
+  display: block!important;
   font-size: 1.2rem;
   min-height: 10vh;
   width: 100%;
