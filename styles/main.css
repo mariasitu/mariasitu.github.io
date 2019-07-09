@@ -1090,6 +1090,7 @@ h6 {
     overflow-y: none;
     margin-top: 1rem;
     height: auto;
+    max-width: none;
   }
 
   .project-cards img {
@@ -1132,7 +1133,7 @@ h6 {
   }
 
   .about-headings {
-    display:none;
+    margin-top: 1rem;
   }
 
   .main-bio {
@@ -1153,7 +1154,7 @@ h6 {
 
   .main-bio h3 {
     color: #383838;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .bio {
@@ -1174,6 +1175,10 @@ h6 {
     font-size: 1rem;
   }
 
+  .profile-picture img {
+    width: 100%;
+  }
+
   .footer-headings {
     display: block;
   }
@@ -1185,12 +1190,16 @@ form {
 }
 
 input {
-  width: auto;
+  width: 100%;
   border-color: #6e61ff5c;
 }
 
 textarea {
   border-color: #6e61ff5c;
+}
+
+.contact {
+  margin-top: 8vh;
 }
 
 /* LETS EAT */
@@ -1243,7 +1252,9 @@ textarea {
     padding: 0;
     margin-top: 6vw;
     width: 100%;
-    background-color: #6e61ff;
+    /* background-color: #6e61ff; */
+    background-color: white;
+    border: 1px solid #6e61ff2b;
   }
 
   .topnav > a {
@@ -1252,7 +1263,8 @@ textarea {
     font-weight: medium;
     padding: 6px 0px 10px 0px;
     margin: 0;
-    color: #fff;
+    /* color: #fff; */
+    color: #6e61ff;
   }
 
 
@@ -1322,6 +1334,47 @@ textarea {
 
   .research {
     padding: 0;
+  }
+
+  .personas {
+    display: block;
+    margin-right:0;
+    text-align: center;
+  }
+
+  .container {
+    margin: 1rem;
+  }
+
+  .row-one {
+    display: block;
+  }
+
+  .carmen-bio {
+    margin-left: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .carmen img {
+    width: auto !important;
+    padding-left: 0 !important;
+  }
+
+  .carmen-paragraph {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: none;
+  }
+
+  .row-three {
+    display: block;
+  }
+
+  .user-list {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-top: 2px solid #6e61ff57;
   }
 
   .competitive-analysis {
@@ -1544,6 +1597,11 @@ textarea {
     opacity: 1;
   }
 
+  .project-cards {
+    max-width: none;
+    width: 100%;
+  }
+
   .project-cards img {
     width: 17vw;
   }
@@ -1600,7 +1658,7 @@ textarea {
   }
 
   .main-bio h3 {
-    font-size: 1.2rem;
+    font-size: 2.7rem;
   }
 
   .bio {
@@ -1614,7 +1672,7 @@ textarea {
   }
 
   .profile-picture img {
-    width: 50vw;
+    width: 100%;
     height: auto;
   }
 
@@ -1626,6 +1684,12 @@ textarea {
     margin-top: 40px;
     font-size: 40px;
   }
+
+/* CONTACT */
+
+form {
+  max-width: 80vw;
+}
 
 /* CASE STUDY */
 
@@ -1745,9 +1809,11 @@ textarea {
 
 @media screen and (min-width: 1025px) {
 
-  /* .topnav a {
-    font-size: 1.4rem;
-  } */
+/* CONTACT */
+
+
+
+/*LETS EAT */
 
   .mainHeader h3 {
     display: none;
