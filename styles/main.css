@@ -328,11 +328,11 @@ textarea {
 
 .about-headings {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .about-headings > h3 {
-  flex: .1 auto;
+  flex: .3 auto;
 }
 
 .about-headings h3 {
@@ -354,8 +354,7 @@ textarea {
 
 .profile-picture img {
   height: auto;
-  width: 20vw;
-  border-radius: 50%;
+  width: 40vw;
   margin-top: 1rem;
   /* border-radius: 7%; */
 }
@@ -373,7 +372,7 @@ textarea {
 
 .bio-paragraph {
   overflow-y: none;
-  padding-top: 2rem;
+  padding-top: 1rem;
   max-width: 50vw;
   text-align: left;
 }
@@ -729,21 +728,119 @@ h6 {
 
 /* user personas section */
 
-.user-persona-images {
+/* .user-persona-images {
   display: flex;
   justify-content: flex-start;
-}
+} */
 
 
-.user-persona-images img {
+/* .user-persona-images img {
   height: auto;
   padding-bottom: 3rem;
   padding-right: 4rem;
   width: 35vw;
-}
+} */
 
 .personas {
   margin-left: 10rem;
+  margin-right: 10rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.personas > div {
+  flex: .2 auto;
+}
+
+.container {
+  display: block;
+  min-width: 200px;
+  max-width: 500px;
+  background-color: white;
+  color: #383838;
+  font-family: Roboto;
+  padding: 1rem;
+  border-radius: 7px;
+  margin: .5rem;
+  border: 1px solid #6e61ff29;
+  box-shadow: 2px 2px 4px #6e61ff42;
+}
+
+.container p {
+  color: #383838;
+  padding-right: 0 !important;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+}
+
+.container h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #6e61ff;
+}
+
+.container h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.row-one {
+  display: flex;
+  border-bottom: 2px solid #6e61ff5e;
+  padding-bottom: .5rem;
+}
+
+.row-one>div {
+  flex: .2 auto;
+}
+
+.carmen {
+  margin: auto;
+}
+
+.carmen img {
+  width: 15vw;
+  margin: auto;
+}
+
+.carmen-bio {
+  display: block;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.carmen-paragraph {
+  border-bottom: 2px solid #6e61ff5e;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+
+.row-three {
+  display: flex;
+}
+
+.row-three>div {
+  flex: .2 auto;
+}
+
+.user-list {
+  display: block;
+  padding-left: 1rem;
+  padding-top: .5rem;
+}
+
+.user-list ul {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 160%;
+  margin-top:.5rem;
+}
+
+.user-list li {
+  padding-bottom: .7rem;
 }
 
 .user-persona-button {
