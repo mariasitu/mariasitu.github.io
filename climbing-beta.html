@@ -19,53 +19,63 @@
 
 
   <body>
-    <a name="intro"></a>
-    <header class="caseStudy">
-      <section class="mainBarLong" id="white-background">
-        <div class="mainHeader">
+    <div class="wrapper">
+      <div class="menu">
           <a href="./index.html"><img src="./images/logo.svg" class="longlogo" alt=""></a>
-          <h1 class="longh1"><a href ="./index.html">maria situ</a></h1>
+          <!-- <h1 class="longh1"><a href ="./index.html">maria situ</a></h1> -->
           <!-- <h3>Product Designer</h3> -->
           <!-- top navigation -->
-            <div class="topnav">
-              <a href="./index.html">work</a>
-              <a href="./about.html">about me</a>
-              <a href="https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank">resume</a>
-            </div>
+            <div class="nav">
+              <a href="./index.html#about-me"><div class="menu-section">
+                <h1>ABOUT</h1>
+                <hr />
+                <p>Who I Am</p>
+              </div></a>
+
+              <a href="./index.html#work"><div class="menu-section">
+                <h1>WORK</h1>
+                <hr />
+                <p>View Case Studies</p>
+              </div></a>
+
+              <a href="./index.html#contact"><div class="menu-section">
+                <h1>CONTACT</h1>
+                <hr />
+                <p>Let's Get In Touch</p>
+              </div></a>
+  <!--
+
+              https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank">resume</a>
+            </div> -->
         </div>
-        <!-- <div class="header-background">
-          <img src="./images/header-background.jpg" />
-        </div> -->
+      </div>
+    </div>
+    <a name="intro"></a>
 
-<!---------------- case study nav bar ---------------->
-
-        <div id="caseNavBar" class="nav-bar-long">
-          <a href="#Overview">Overview</a>
-          <a href="#Research">Research</a>
-          <a href="#Info">Information Architecture</a>
-          <a href="#Design">Visual Design</a>
-          <a href="#Final">Final Prototype</a>
-        </div>
-
-      </section>
-
-    </header>
+    <section class="case-study">
+      <div id="caseNavBar" class="nav-bar-long">
+        <a href="#Overview">Overview</a>
+        <a href="#Research">Research</a>
+        <a href="#Info">Information Architecture</a>
+        <a href="#Design">Visual Design</a>
+        <a href="#Final">Final Prototype</a>
+      </div>
+    </section>
 
 <!---------------- intro section ---------------->
 
-    <section class="intro">
+    <section class="intro-climbing">
+      <div class="climbing-hero">
+        <img src="./images/browser.png" alt="project screenshot"/>
+      </div>
 
-      <div id="intro" class="left-text" id="purple-background">
+      <div class="left-text-climbing">
         <h1 class="heroh1">The Climbing Beta</h1>
-        <p>a crowd-sourced review service and business directory for rock climbing</p>
-        <a href ="" target="_blank"><h3><button>View Final Prototype</button></h3></a>
+        <p>a crowd-sourced review forum and business directory site for rock climbing.</p>
+        <a href ="https://www.figma.com/proto/baGdMX3VUnzJeXuw7Lvp1QsA/Climbing-Review-Site?node-id=401%3A132&viewport=-172%2C-10%2C0.06960795819759369&scaling=scale-down-width" target="_blank"><h3><button>View Final Prototype</button></h3></a>
       </div>
-
-      <div class="letseat-hero">
-        <img src="./images/climbing-hero.png" alt="project screenshot"/>
-      </div>
-
     </section>
+
     <a name="Overview"></a>
 
 <!---------------- overview section ---------------->
@@ -79,8 +89,8 @@
       <div class="left-text">
         <div class="problem">
           <h2>Problem</h2>
-          <p>Users are currently experiencing difficulties planning an event, especially when applications have limited functions.</p>
-          <p>They need to find easier ways to store and access event information.</p>
+          <p>Climbing is largely considered to be a friendly and social sport with great communities but users are having a hard time finding popular climbing routes and gyms while vacationing or in new areas.</p>
+          <p>Why is there no easy way to share knowledge about great outdoor climbs or indoor gyms?</p>
         </div>
 
         <div class="space-break">
@@ -89,13 +99,13 @@
 
         <div class="solution">
           <h2>Solution</h2>
-          <p>Let's eat gives users a solition for storing various types of data such as texts, locations, contacts, and images in one place.</p>
-          <p>This eliminates the need for a user to search or use multiple applications for one things.</p>
+          <p>Enter The Climbing Beta. The Climbing Beta gives users a solution for searching for climbing routes and gyms in areas they might not be familiar with.</p>
+          <p>Because the reviews and information given are 100% crowd-sourced and verified (when possible), users get the benefit of utilizing different local communities for honest and reliable reviews.</p>
         </div>
       </div>
 
-      <div class="overview-hero">
-        <img src="./images/overview-hero-images.png" alt="project screenshot"/>
+      <div class="overview-climbing-hero">
+        <img src="./images/abp.png" alt="project screenshot"/>
       </div>
 
     </section>
@@ -130,10 +140,10 @@
       <div>
         <ul>
           <li><h5>Tools</h5></li>
-          <li><p>Sketchbook</p></li>
+          <li><p>Sketch pad</p></li>
           <li><p>Figma</p></li>
-          <li><p>UsabilityHub</p></li>
-          <li><p>GitHub</p></li>
+          <li><p>Adobe Photoshop</p></li>
+          <li><p>InVision</p></li>
           <li><p>Zoom</p></li>
         </ul>
       </div>
@@ -152,8 +162,8 @@
 
       <div class="left-text">
         <h2>User Research</h2>
-        <p>We conducted a user survey in order to gauge possible could storage users' interest for app features that involve content creation, sharing, organizing, and collaborating.</p>
-        <a href="https://docs.google.com/document/d/1ND0pj4ULEWHnRHvU8i0FZ5dFcmXQ1aEcpXSWaHi17eI/edit?usp=sharing" target="_blank"><h3><button>View full Survey Results</button></h3></a>
+        <p>We conducted a user survey in order to gauge the different types of review forum users and to gain insight about how they use services on these sites so that we can better address their needs and pain points.</p>
+        <a href="https://docs.google.com/document/d/10Qf3Ld8koDsMJEYPcoAR_ETFB8hPFdvH0B8y5qT-Zs0/edit#heading=h.yp3z2mhjtvrl" target="_blank"><h3><button>View full Survey Results</button></h3></a>
       </div>
     </section>
 
@@ -169,7 +179,7 @@
       <div class="h6-title">
         <h6>Important Takeaways</h6>
         <ul>
-          <li>Sharing and collaboration are very important features to most users</li>
+          <li>Top frustrations with these review sites are that reviews can be faked and ratings system can be abused at 64% with interface is too cluttered and site credibility</li>
           <li>Survey participants stated they interact the most with image, data, and text files</li>
           <li>Ease of access to files is a very appreciated feature</li>
         </ul>
@@ -178,11 +188,11 @@
 
 
 <!----------------- user personas --------------->
-
+  <section class="user-personas">
     <div class="left-text">
       <h2>User Personas</h2>
-      <p>Using the data gathered from the survey, we created 3 tiers of potential user personas: Low, Medium, and High involvement.</p>
-      <p>A summary of the low and high involvment tiers are shown below.</p>
+      <p>Using the data gathered from the survey, we created 3 types of potential user personas: The Local, The Traveler, and The Googler.</p>
+      <p>A summary of The Local and The Traveler tiers are shown below.</p>
     </div>
 
     <section class="user-persona-images">
@@ -190,37 +200,37 @@
         <div class='container'>
           <div class="row-one">
             <div class="carmen">
-              <img src="./images/kevin-pic.png">
+              <img src="./images/maddie.png">
             </div>
             <div class="carmen-bio">
-              <h3>Kevin</h3>
-              <p>Tier: Low Involvement</p>
-              <p>Age: 24</p>
-              <p>Occupation: Student</p>
+              <h3>Madeline</h3>
+              <p>Type: The Local</p>
+              <p>Age: 23</p>
+              <p>Occupation: Grad Student</p>
               <p>Location: Austin, TX</p>
-              <p>"School's hard until you graduate, and then you realize life's even harder."</p>
+              <p>"I don't take advice from a gray avatar."</p>
             </div>
           </div>
           <div class="row-two">
             <div class="carmen-paragraph">
               <h4><span class="bio-purple">Bio</span></h4>
-              <p>Getting through 12-hour shifts is Carmen's first priority, food and sleep are a close second.</p>
-              <p>When she's not working, she likes to lounge around and catch up with current events.</p>
+              <p>As a seasoned climber and internet sketpic, Maddy's weary of online reviews.</p>
+              <p>She usually relies on word of mouth suggestions when looking for new routes, gyms, or other local recommendations.</p>
             </div>
           </div>
           <div class="row-three">
             <div class="user-list">
               <h4><span class="bio-purple">Needs</span></h4>
               <ul>
-                <li>Be able to access event details and calendar at all times</li>
-                <li>Message other collborators/event attendees easily</li>
+                <li>Verification of a places reputation from people she knows</li>
+                <li>Ability to report false reviews</li>
               </ul>
             </div>
             <div class="user-list">
               <h4><span class="bio-purple">Pain Points</span></h4>
               <ul>
-                <li>Needs notifications and reminders for to-do things and lists</li>
-                <li>Keeping up with all the scheduling changes</li>
+                <li>Reviews not being detailed enough</li>
+                <li>Having to question the authenticity of a review</li>
               </ul>
             </div>
           </div>
@@ -228,37 +238,37 @@
         <div class='container'>
           <div class="row-one">
             <div class="carmen">
-              <img src="./images/carmen-pic.png">
+              <img src="./images/jeevan.png">
             </div>
             <div class="carmen-bio">
-              <h3>Carmen</h3>
-              <p>Tier: High Involvement</p>
-              <p>Age: 27</p>
-              <p>Occupation: ER Nurse</p>
-              <p>Location: Houston, TX</p>
-              <p>"Helping people get better is worth all the skipped meals and lost sleep."</p>
+              <h3>Jeevan</h3>
+              <p>Type: The Traveler</p>
+              <p>Age: 34</p>
+              <p>Occupation: Software Engineer</p>
+              <p>Location: Seattle, WA</p>
+              <p>"I'll try most things at least once!"</p>
             </div>
           </div>
           <div class="row-two">
             <div class="carmen-paragraph">
               <h4><span class="bio-purple">Bio</span></h4>
-              <p>Getting through 12-hour shifts is Carmen's first priority, food and sleep are a close second.</p>
-              <p>When she's not working, she likes to lounge around and catch up with current events.</p>
+              <p>Jeevan loves to travel when he isn't busy fixing coding issues.</p>
+              <p>Being a fairly curious person, he welcomes the opportunity to experience new things and places.</p>
             </div>
           </div>
           <div class="row-three">
             <div class="user-list">
               <h4><span class="bio-purple">Needs</span></h4>
               <ul>
-                <li>Be able to access event details and calendar at all times</li>
-                <li>Message other collborators/event attendees easily</li>
+                <li>Easily accessibly map integration feature for directions</li>
+                <li>Ability to sort through reviews based on filters or tags</li>
               </ul>
             </div>
             <div class="user-list">
               <h4><span class="bio-purple">Pain Points</span></h4>
               <ul>
-                <li>Needs notifications and reminders for to-do things and lists</li>
-                <li>Keeping up with all the scheduling changes</li>
+                <li>Frustrated with reviews sites that offer search filters</li>
+                <li>Doesn't like not being able to see a user's history to gauge the authenticity of a review</li>
               </ul>
             </div>
           </div>
@@ -272,9 +282,9 @@
     </section>
 
     <div class="user-persona-button">
-      <a href="https://www.figma.com/proto/faryxRZ4uwsTpzUZ4ZIwDxY2/User-Personas?node-id=32%3A6&viewport=15%2C-11%2C0.2918793559074402&scaling=min-zoom" target="_blank"><h3><button>View full User Personas</button></h3></a>
+      <a href="https://drive.google.com/drive/folders/1g-YUnm13d8xEeeE_c-RZb-lrz5uY1KPA?usp=sharing" target="_blank"><h3><button>View full User Personas</button></h3></a>
     </div>
-
+  </section>
 <!---------------- Competitive Analysis ---------------->
 
     <section class="competitive-analysis">
@@ -288,14 +298,14 @@
 
     <section id="purple-background" class="comp-images">
       <div class="analysis-images">
-        <img src="./images/google.svg" alt="google comparison"/>
-        <img src="./images/pinterest.svg" alt="project screenshot"/>
-        <img src="./images/dropbox.svg" alt="project screenshot"/>
+        <img src="./images/yelp.png" alt="yelp comparison"/>
+        <img src="./images/facebook.png" alt="facebook comparison"/>
+        <img src="./images/google-reviews.png" alt="google reviews comparison"/>
       </div>
     </section>
 
     <div class="comp-analysis-button">
-      <a href="https://docs.google.com/document/d/1quwV-Dd67aTQvwI2Vx5P8b-3aZNnESI3aDvdjzSMNLQ/edit?usp=sharing" target="_blank"><h3><button>View full Competitive Analysis</button></h3></a>
+      <a href="https://docs.google.com/document/d/1bBJ3NSIfdIpC346dn-IOLAyjphpaROee1mh8qJYMLn8/edit?usp=sharing" target="_blank"><h3><button>View full Competitive Analysis</button></h3></a>
     </div>
 
 
@@ -316,15 +326,15 @@
 
       <div class="list-text">
         <ul>
-          <li><span>Create an account</span></li>
-          <li><span>Create an event</span></li>
-          <li><span>Contact event attendees</span></li>
+          <li><span>Rate and/or Review a place</span></li>
+          <li><span>Search for a place or business</span></li>
+          <li><span>Use filters to narrow down search results</span></li>
         </ul>
 
         <ul>
-          <li><span>Understand how to use the app</span></li>
-          <li><span>Invite people to my event</span></li>
-          <li><span>Change details about my event</span></li>
+          <li><span>Report suspicious reviews</span></li>
+          <li><span>Navigate to a destination through an integrated map</span></li>
+          <li><span>Create a profile to save my review</span></li>
         </ul>
       </div>
 
@@ -355,9 +365,12 @@
     </div>
   </section>
 
-  <div class="user-persona-button">
-    <a href="https://drive.google.com/open?id=1QJZl-M5DtkP7szRuu8wQdSFt_7fgVouQ" target="_blank"><h3><button>View complete User Flows</button></h3></a>
+  <div class="analysis-images">
+    <div class="user-persona-button">
+      <a href="https://drive.google.com/open?id=1QJZl-M5DtkP7szRuu8wQdSFt_7fgVouQ" target="_blank"><h3><button>View complete User Flows</button></h3></a>
+    </div>
   </div>
+
 
 
   <!-- wireframes -->
@@ -371,18 +384,18 @@
 
     <div class="list-text">
       <ul>
-        <li><span>Search bar</span></li>
-        <li><span>Navigational menu</span></li>
+        <li><span>Write a review</span></li>
+        <li><span>Rate a place or business</span></li>
       </ul>
 
       <ul>
-        <li><span>Create a new event button</span></li>
-        <li><span>Edit event details</span></li>
+        <li><span>Flag a suspicious review</span></li>
+        <li><span>Map integration of place or business</span></li>
       </ul>
 
       <ul>
-        <li><span>Send a new message</span></li>
-        <li><span>Feed of existing events</span></li>
+        <li><span>Use filters in search</span></li>
+        <li><span>Create an account to save or share reviews</span></li>
       </ul>
     </div>
 
@@ -403,12 +416,14 @@
 
 
 <!-- digital wireframes -->
-
-  <div class="left-text">
-    <h2>Digital Wireframes</h2>
-    <p>Using the sketches above, as well as other influences of popular applications, we created our first iteration of digital wireframes.</p>
-    <p>Some screen inspirations came from Facebook, Eventbrite, and Twitter.</p>
+  <div class="wireframes">
+    <div class="left-text">
+      <h2>Digital Wireframes</h2>
+      <p>Using the sketches above, as well as other influences of popular applications, we created our first iteration of digital wireframes.</p>
+      <p>Some screen inspirations came from Yelp, Patagonia, and Mountain Project.</p>
+    </div>
   </div>
+
 
   <section class="user-task-images">
     <div class="digital-wires">
@@ -418,15 +433,18 @@
     </div>
   </section>
 
-  <div class="user-persona-button">
-    <a href="https://drive.google.com/open?id=1BqHfchzSbxIjvWSgeH5uKKhyVgnRN1_c" target="_blank"><h3><button>View Lo-Fi Wireframes</button></h3></a>
+  <div class="analysis-images">
+    <div class="user-persona-button">
+      <a href="https://drive.google.com/open?id=1BqHfchzSbxIjvWSgeH5uKKhyVgnRN1_c" target="_blank"><h3><button>View Lo-Fi Wireframes</button></h3></a>
+    </div>
   </div>
+
 
 
 
 <!-- user testing round 1 -->
 
-  <section id="purple-background">
+  <section class="user-testing-1" id="purple-background">
 
     <div class="arch-text">
       <h2>User Testing Round 1</h2>
@@ -496,27 +514,28 @@
   <div id="caseNavBar">
     <a name="Design">Visual Design</a>
   </div>
+  <div class="visual-design">
 
-  <div class="left-text">
-    <h2>Brand Concept</h2>
-    <p>The entire concept of the application is simplicity. We wanted to take a process that is relatively difficult (on a good day) and make it simpler.</p>
-    <p>We started by brainstorming words and themes for the logo. Based off that, we started to look at symbols and motifs that could accurately represent the application and its intended uses.</p>
+    <div class="left-text">
+      <h2>Brand Concept</h2>
+      <p>The Climbing Beta's main purpose is to help users find potential climbing routes and gyms through crowd-sourced reviews.</p>
+      <p>We started the branding process by thinking about the process of climbing and breaking it down into its simplest form - hands, rock, and chalk (sometimes).</p>
+    </div>
+
+    <section class="user-task-images" id="no-display">
+      <div class="brainstorming-image">
+        <img class="moodboard" src="./images/moodboard.png" alt="project screenshot"/>
+        <p>Brainstorming and moodboard photos</p>
+      </div>
+    </section>
+
+    <section id="sketches-mobile" class="brainstorming-image-mobile">
+      <img src="./images/branding-mobile.png" />
+      <div class="user-persona-button">
+        <h3><button>View Brainstorming Photos</button></h3>
+      </div>
+    </section>
   </div>
-
-  <section class="user-task-images" id="no-display">
-    <div class="brainstorming-image">
-      <img class="moodboard" src="./images/moodboard.png" alt="project screenshot"/>
-      <p>Brainstorming and moodboard photos</p>
-    </div>
-  </section>
-
-  <section id="sketches-mobile" class="brainstorming-image-mobile">
-    <img src="./images/branding-mobile.png" />
-    <div class="user-persona-button">
-      <h3><button>View Brainstorming Photos</button></h3>
-    </div>
-  </section>
-
 
 
 <!-- Logo exploration -->
@@ -524,13 +543,11 @@
 
 
   <section class="logo" id="purple-background">
-
     <div class="left-text">
       <h2>Logo exploration</h2>
-      <p>Our journey to the perfect logo and color scheme really began with the desire to make a complicated process (dinner planning) simpler.</p>
-      <p>Since the application specifically caters to dinner planning, we wanted the logo to be very universal and easily relatable to the act of eating or dining.</p>
+      <p>The logo embodies all that The Climbing Beta is in its simplest form - bold and straightforward.</p>
+      <p>Something about confidence in the site and the information it provides to its users.</p>
     </div>
-
   </section>
 
   <section id="purple-background" class="user-task-images">
@@ -561,35 +578,38 @@
 
 <!-- Colorography and Typography -->
 
+  <div class="branding">
+    <div class="left-text">
+      <h2>Colorography & Typography</h2>
+      <img class="testing-images" src="./images/colorography.svg" alt="project screenshot"/>
+    </div>
 
-  <div class="left-text">
-    <h2>Colorography & Typography</h2>
-    <img class="testing-images" src="./images/colorography.svg" alt="project screenshot"/>
+    <section class="brainstorming-image-mobile">
+      <img src="./images/colorography-mobile.svg" />
+    </section>
+
+
+    <div class="list-text" id="extra-space">
+      <p>Typography here</p>
+      <p>While brainstorming for Primary colors, we came across this description "Blue is strongly associated with feelings of trust, dependability, and calmness" which are all things we want the site to inspire in it’s design to the users. We decided to go with a mixture of a monotone and triad color scheme - incorporating cool grays and blacks as secondary colors for support.</p>
+    </div>
+
+    <section class="brainstorming-image-mobile">
+      <img src="./images/typography-mobile.svg" />
+    </section>
+    <div class="user-persona-button">
+      <h3><button>View Styleguide</button></h3>
+    </div>
   </div>
 
-  <section class="brainstorming-image-mobile">
-    <img src="./images/colorography-mobile.svg" />
-  </section>
 
-
-  <div class="list-text" id="extra-space">
-    <p>While searching for the right color for this brand, we wanted to find something that embodied the millenial struggle and something that appealed to young professionals - fun, reliable, and vibrant.<br /><br />Pantone says that <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019"<b>Living Coral</b></a> "symbolizes our innate need for optimism and joyful pursuits - a feeling that, perhaps, people might be craving in today's landscape".</p>
-    <p>Staying true to the intended nature of the app - being simple to use, it made the most sense to go with a monochromatic color scheme to let the vibrancy of the Living Coral shine through.<br /><br />For that reason, we decided to pair the coral with warm grays and a soft black.<br /><br />Deciding to use Roboto as a font type was a no-brainer. It is a popular sans-serif font that many users recognize and has 12 styles within the font family alone. This eliminates the need to pair it with another font to create contrast when needed.</p>
-  </div>
-
-  <section class="brainstorming-image-mobile">
-    <img src="./images/typography-mobile.svg" />
-  </section>
-
-  <div class="user-persona-button">
-    <h3><button>View Styleguide</button></h3>
-  </div>
 
 
   <!-- User testing Round 2 -->
 
   <section id="purple-background">
 
+  <div class="user-test-2">
     <div class="arch-text">
       <h2>User Testing Round 2</h2>
       <h6>Feed tab</h6>
@@ -602,6 +622,8 @@
         <img src="./images/news.svg" alt="news label"/>
       </div>
     </section>
+  </div>
+
 
     <section class="takeaways">
       <div class="h6-title">
@@ -614,7 +636,7 @@
       </div>
     </section>
 
-
+  <div class="user-test-2">
     <div class="arch-text">
       <h6>Event Screen Layout</h6>
       <p>The next preference test was for the addition of small profile icons of guests that are attending an event versus an event home page with just a link to view the guest list.</p>
@@ -626,6 +648,8 @@
         <img src="./images/event-home-layout-2.png" alt="project screenshot"/>
       </div>
     </section>
+  </div>
+
 
     <section class="takeaways">
       <div class="h6-title">
@@ -644,58 +668,63 @@
 
 <!-- Iterations section -->
 
-
-  <div class="left-text">
-    <h2>Iterations based on feedback</h2>
-    <h6>Event Screen Layout</h6>
-    <p>In the first high fidelity mockup for the event page, there was an idea to maintain a sense of movement within the app by adding an organic circular shape to the top of the screen which can be seen in many other screens throughout the app.</p>
-    <p>After consulting with other team members and conducting some user tests, we decided to remove the solid shape as it seemed to create a feeling of separation within the content on the page. Instead, we used the circular shape as a mask for the event hero photo, therefore still incorporating an organic sense of movement within the page without the added distraction.</p>
-  </div>
-
-  <section id="no-display" class="user-task-images">
-    <div class="brainstorming-image">
-      <img class="user2-large" src="./images/testing2-1.png" alt="event screen layout iterations"/>
-      <p>Event page iterations 1-3</p>
-    </div>
-  </section>
-
-    <div id="iterations-mobile" class="brainstorming-image-mobile">
-      <img src="./images/iterations1.svg" alt="event screen layout iterations"/>
+  <div class="analysis-images">
+    <div class="left-text">
+      <h2>Iterations based on feedback</h2>
+      <h6>Event Screen Layout</h6>
+      <p>In the first high fidelity mockup for the event page, there was an idea to maintain a sense of movement within the app by adding an organic circular shape to the top of the screen which can be seen in many other screens throughout the app.</p>
+      <p>After consulting with other team members and conducting some user tests, we decided to remove the solid shape as it seemed to create a feeling of separation within the content on the page. Instead, we used the circular shape as a mask for the event hero photo, therefore still incorporating an organic sense of movement within the page without the added distraction.</p>
     </div>
 
-  <div id="iterations-mobile" class="user-persona-button">
-    <h3><button><a href="#">View all Iterations</a></button></h3>
-  </div>
+    <section id="no-display" class="user-task-images">
+      <div class="brainstorming-image">
+        <img class="user2-large" src="./images/testing2-1.png" alt="event screen layout iterations"/>
+        <p>Event page iterations 1-3</p>
+      </div>
+    </section>
 
-  <div class="left-text">
-    <h6>Side Menu Navigation</h6>
-    <p>In the early versions of this app, user testing revealed that the hamburger side menu might not be as intuitive for users who are not familiar with the feature.</p>
-    <p>As a way to remedy this, we added a quick on-boarding overlay that informs the user of the existence of a side-menu when they first create an account.</p>
-    <p>We also removed menu options that felt out of place being in the side menu such as “Invite Contacts” and “Sync Calendar”.</p>
-  </div>
+      <div id="iterations-mobile" class="brainstorming-image-mobile">
+        <img src="./images/iterations1.svg" alt="event screen layout iterations"/>
+      </div>
 
-  <section id="no-display" class="user-task-images">
-    <div class="brainstorming-image">
-      <img class="user2-large" src="./images/testing2-2.png" alt="side menu iterations"/>
-      <p>Side menu iterations 1-3</p>
+    <div id="iterations-mobile" class="user-persona-button">
+      <h3><button><a href="#">View all Iterations</a></button></h3>
     </div>
-  </section>
 
-  <div class="user-persona-button">
-    <a href="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let's-eat?node-id=721%3A6180&viewport=323%2C323%2C0.10184585303068161&scaling=scale-down&redirected=1" target="_blank"><h3><button>View Final Prototype</button></h3></a>
+    <div class="left-text">
+      <h6>Side Menu Navigation</h6>
+      <p>In the early versions of this app, user testing revealed that the hamburger side menu might not be as intuitive for users who are not familiar with the feature.</p>
+      <p>As a way to remedy this, we added a quick on-boarding overlay that informs the user of the existence of a side-menu when they first create an account.</p>
+      <p>We also removed menu options that felt out of place being in the side menu such as “Invite Contacts” and “Sync Calendar”.</p>
+    </div>
+
+    <section id="no-display" class="user-task-images">
+      <div class="brainstorming-image">
+        <img class="user2-large" src="./images/testing2-2.png" alt="side menu iterations"/>
+        <p>Side menu iterations 1-3</p>
+      </div>
+    </section>
+
+    <div class="user-persona-button">
+      <a href="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let's-eat?node-id=721%3A6180&viewport=323%2C323%2C0.10184585303068161&scaling=scale-down&redirected=1" target="_blank"><h3><button>View Final Prototype</button></h3></a>
+    </div>
   </div>
+
 
 
   <!-- LESSONS LEARNED SECTION -->
 
   <section id="purple-background"><a name="Final"></a>
 
-    <div class="left-text">
-      <h2>Key Lessons Learned</h2>
-      <p>Being the sole designer responsible for the entirety of a project from conception to delivery took herculean efforts and meant letting go of a lot of perfectionistic tendencies.</p>
-      <p>The journey of let’s eat is a tale fraught full of scope creep issues, questions about logo branding and identity, and endless iteration in order to solve the problem of the difficulties associated with dinner planning. Users liked how clean the UI looked and navigating the application was very intuitive.</p>
-      <p>Given more time and love, this application would likely explore features such as external calendar syncing and the ability to create to-do lists and assigning tasks to event attendees.</p>
+    <div class="analysis-images">
+      <div class="left-text">
+        <h2>Key Lessons Learned</h2>
+        <p>Being the sole designer responsible for the entirety of a project from conception to delivery took herculean efforts and meant letting go of a lot of perfectionistic tendencies.</p>
+        <p>The journey of let’s eat is a tale fraught full of scope creep issues, questions about logo branding and identity, and endless iteration in order to solve the problem of the difficulties associated with dinner planning. Users liked how clean the UI looked and navigating the application was very intuitive.</p>
+        <p>Given more time and love, this application would likely explore features such as external calendar syncing and the ability to create to-do lists and assigning tasks to event attendees.</p>
+      </div>
     </div>
+
 
     <div class="back-to-top">
       <a href="#intro">Back to top <span>&#8593;</span></a>
