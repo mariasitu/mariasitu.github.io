@@ -161,6 +161,10 @@ hr {
   line-height: 140%;
 }
 
+.bio-paragraph a {
+  text-decoration: none;
+}
+
 .purple-text {
   color: #6e61ff;
 }
