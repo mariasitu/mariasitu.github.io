@@ -240,6 +240,10 @@ hr {
   justify-content: center; */
 }
 
+#coming-soon {
+  margin-left: 8rem;
+}
+
 
 .xop-left {
   background-image: url("../images/climbing-hero.png");
