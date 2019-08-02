@@ -585,8 +585,8 @@ button:active {
 
 .intro-climbing {
   display: flex;
-  margin-left: 14rem;
-  padding-top: 3rem;
+  padding-left: 15rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -738,14 +738,14 @@ h5 {
 
 .research {
   margin-left: 200px;
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
   display: flex;
   justify-content: flex-start;
 }
 
 
 .survey-images {
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
   margin-left: 200px;
   display: flex;
   justify-content: flex-start;
@@ -798,9 +798,9 @@ h6 {
 
 
 .personas {
-  margin-left: 8rem;
-  margin-right: 8rem;
   display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -819,7 +819,7 @@ h6 {
   border-radius: 7px;
   margin: .5rem;
   border: 1px solid #6e61ff29;
-  box-shadow: 2px 2px 4px #6e61ff42;
+  box-shadow: 2px 2px 4px #6e61ff1a;
 }
 
 .container p {
@@ -832,6 +832,7 @@ h6 {
 .container h3 {
   font-size: 1.6rem;
   font-weight: 700;
+  font-family: "Permanent Marker";
   color: #6e61ff;
 }
 
@@ -910,7 +911,7 @@ h6 {
 
 .competitive-analysis {
   margin-left: 200px;
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
   padding-top: 1rem;
 }
 
@@ -944,7 +945,7 @@ h6 {
 
 
 .comp-analysis-button {
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
   display: flex;
   justify-content: center;
   padding-bottom: 3rem;
@@ -986,6 +987,10 @@ h6 {
 .list-text {
   display: flex;
   padding-left: 8rem;
+}
+
+.list-text a {
+  color: #6e61ff;
 }
 
 
@@ -1063,7 +1068,7 @@ h6 {
 
 
 .user-testing-1 {
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
   padding-bottom: 2rem;
   margin-left: 200px;
 }
@@ -1108,7 +1113,7 @@ h6 {
 
 
 #purple-background {
-  background-color: rgba(110,97,255, 10%);
+  background-color: rgba(110,97,255, 5%);
 }
 
 
@@ -1142,15 +1147,115 @@ h6 {
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
 
-  .home-body {
-    background-image: none;
+  .menu {
+    display: block;
+    height: auto;
+    width: 100%;
   }
 
-  .headings-h3 {
-    text-align: left;
-    padding-top: 1rem;
+  .nav {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
   }
 
+  .nav a {
+    margin-top: 1rem;
+    flex: .3 auto;
+  }
+
+  hr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .main-bio {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #000;
+  }
+
+  .bio-pic {
+    padding-left: 5%;
+    margin-top: 70%;
+  }
+
+  .bio-pic img {
+    height: 50vh;
+    width: auto;
+  }
+
+  .bio {
+    margin-left:0;
+  }
+
+  .paragraphs {
+    display: block;
+  }
+
+  .bio-paragraph {
+    margin-left: 3rem;
+  }
+
+  .links {
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+  .xop-container {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .xop-left {
+    width: auto;
+    height: 40vh;
+    margin-left: 0;
+    filter: none;
+    background-position: left;
+  }
+
+  .xop-right {
+    width: auto;
+    height: 40vh;
+    margin-left: 0;
+    filter: none;
+  }
+
+  /* .xop-button {
+    display: none;
+  } */
+
+  .contact {
+    margin-left: 0;
+    margin-top: -4rem;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .contact-info p {
+    padding-right: 0;
+  }
+
+
+  form {
+    width: 100%;
+  }
+
+
+  /*** LETS EAT Case Study ***/
 
   #see-work {
     margin-top: 3rem;
@@ -1189,124 +1294,7 @@ h6 {
     font-size: 1rem;;
   }
 
-  .project-cards {
-    display: block;
-    right: auto;
-    margin-left: 0;
-    overflow-y: none;
-    margin-top: 1rem;
-    height: auto;
-    max-width: none;
-  }
 
-  .project-cards img {
-    width: 100% !important;
-    height: auto !important;
-    margin-left: 0;
-  }
-
-  .project-1 {
-    background-color: #fff;
-    transition: none;
-    position: relative;
-    opacity: 1;
-    width: 100%;
-  }
-
-
-  .project-cards p {
-    font-size: 1rem;
-    max-width: none;
-  }
-
-  .project-2 {
-    transition: none;
-    position: relative;
-    opacity: 1;
-    width: 100%;
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-
-
-/* ABOUT PAGE */
-  .about-body {
-    background-image: none;
-  }
-
-  .mainBar {
-    height: 55vw;
-  }
-
-  .about-headings {
-    margin-top: 1rem;
-  }
-
-  .main-bio {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0rem;
-    position: relative;
-    background-color: none;
-    box-shadow: none;
-    border-radius: none;
-    border-style: none;
-    border-color: none;
-    border-width: none;
-    max-width: none;
-    padding-left: 0;
-    padding-top: 0;
-  }
-
-  .main-bio h3 {
-    color: #383838;
-    font-size: 1.7rem;
-  }
-
-  .bio {
-    display: block;
-    padding-left: .5rem;
-    margin-top: 1rem;
-  }
-
-  .bio-paragraph {
-    margin-left: 0;
-    max-height: none;
-    max-width: none;
-    padding-top: 0;
-  }
-
-  .bio-paragraph p {
-    color: #383838;
-    font-size: 1rem;
-  }
-
-  .profile-picture img {
-    width: 100%;
-  }
-
-  .footer-headings {
-    display: block;
-  }
-
-/* CONTACT */
-
-/* form {
-  max-width: 80%;
-}
-
-input {
-  width: 100%;
-  border-color: #6e61ff5c;
-}
-
-textarea {
-  border-color: #6e61ff5c;
-}
-
-.contact {
-  margin-top: 8vh;
-} */
 
 /* LETS EAT */
 
