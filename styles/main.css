@@ -42,6 +42,7 @@ html, body {
 }
 
 .menu-section h1 {
+  font-family: "Permanent Marker";
   font-size: 1rem;
   font-weight: 600;
 }
@@ -116,14 +117,16 @@ hr {
 }
 
 .bio {
-  /* margin-top: 5rem; */
+  margin-top: 5rem;
   margin-left: -200px;
   background-color: white;
   margin-bottom: 5rem;
 }
 
 .bio h1 {
-  font-size: 1.5rem;
+  font-family: "Permanent Marker";
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
 }
 
 .bio p {
@@ -177,6 +180,7 @@ hr {
 
 .links h3 {
   margin: 0;
+  font-family: "Permanent Marker";
 }
 
 .links p {
@@ -330,7 +334,7 @@ hr {
   display: flex;
   margin-left: 10rem;
   margin-bottom: 3rem;
-  text-align: right;
+  text-align: left;
 }
 
 .contact-info {
@@ -504,7 +508,7 @@ button:active {
 
 #caseNavBar a {
   color: #6e61ff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Permanent Marker", 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   padding-left: 3rem;
@@ -600,7 +604,7 @@ button:active {
 
 
 .heroh1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Permanent Marker", 'Roboto', sans-serif;
   font-size: 3rem;
   font-weight: 900;
   text-shadow: none;
@@ -660,7 +664,7 @@ button:active {
 
 h2 {
   color: #383838;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Permanent Marker", 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 24px;
   border-bottom: 3px solid #FFE660;
