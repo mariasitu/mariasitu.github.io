@@ -343,8 +343,17 @@ hr {
   margin-right: 2rem;
 }
 
+.contact-info p {
+  font-size: .9rem;
+}
+
 .contact-links a {
+  text-decoration: none;
   display: inline;
+}
+
+.contact-links p {
+  font-size: .9rem;
 }
 
 .contact-form {
@@ -352,11 +361,12 @@ hr {
 }
 
 .contact-form button {
-  height: 2rem;
   color: white;
+  font-size: 1.2rem;
   width: 6rem;
   border-radius: 7%;
   background-color: #6e61ff;
+  font-family: "Permanent Marker", 'Roboto', sans-serif;
 }
 
 
@@ -372,8 +382,13 @@ input {
   padding: .3rem;
   font-size: 1rem;
   margin-bottom: 1rem;
-  border-color: #000;
-  border-width: 1px;
+  border-color: #6e61ff25;
+  outline: none;
+  border-width: 2px;
+}
+
+input:focus {
+  border-color: #6e61ff;
 }
 
 textarea {
@@ -383,7 +398,13 @@ textarea {
   width: 100%;
   padding: .3rem;
   margin-bottom: 1rem;
-  border-color: #000;
+  border-color: #6e61ff25;
+  border-width: 2px;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #6e61ff;
 }
 
 footer {
@@ -908,7 +929,7 @@ h6 {
 
 .comp-images img {
   height: auto;
-  width: 20vw;
+  width: 26vw;
 }
 
 .analysis-images {
@@ -1101,6 +1122,7 @@ h6 {
 
 .back-to-top a {
   float: right;
+  font-family: "Permanent Marker";
   text-decoration: none;
   color: #6E61FF;
 }
@@ -1267,7 +1289,7 @@ h6 {
 
 /* CONTACT */
 
-form {
+/* form {
   max-width: 80%;
 }
 
@@ -1282,7 +1304,7 @@ textarea {
 
 .contact {
   margin-top: 8vh;
-}
+} */
 
 /* LETS EAT */
 
