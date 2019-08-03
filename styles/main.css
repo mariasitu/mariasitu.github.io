@@ -359,6 +359,8 @@ hr {
 
 .contact-info p {
   font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .contact-links a {
@@ -368,12 +370,14 @@ hr {
 
 .contact-links p {
   font-size: 1rem;
+  margin-top: 2rem;
   color: #6e61ff;
   font-family: "Permanent Marker";
 }
 
 .contact-form {
   display: block;
+  margin-top: 1rem;
 }
 
 .contact-form button {
