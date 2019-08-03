@@ -133,10 +133,10 @@ hr {
 }
 
 .bio {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-left: -200px;
   background-color: white;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .bio h1 {
@@ -156,6 +156,10 @@ hr {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 50% 40%;
+}
+
+.header-maria a {
+  text-decoration: none;
 }
 
 .header-maria p {
@@ -250,7 +254,7 @@ hr {
 }
 
 .xop-container {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 5rem;
   display: block;
   margin-left: 130px;
@@ -258,11 +262,6 @@ hr {
   max-width: 1000px;
 }
 
-.xop-container div {
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center; */
-}
 
 #coming-soon {
   margin-left: 8rem;
@@ -279,7 +278,7 @@ hr {
   padding: 1rem;
   transition: all 0.2s ease-in-out;
   text-transform: uppercase;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   /* min-width: 40vw; */
   /* min-height: 30vh; */
   margin-bottom: 2rem;
@@ -296,14 +295,14 @@ hr {
   padding: 1rem;
   transition: all 0.2s ease-in-out;
   text-transform: uppercase;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   /* min-width: 40vw; */
   /* height: auto; */
   margin-left: 1rem;
 }
 .xop-left:hover,
 .xop-right:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
   filter: hue-rotate(0deg);
 }
 .xop-container h1 {
@@ -347,20 +346,19 @@ hr {
 
 
 .contact {
-  display: flex;
-  margin-left: 10rem;
+  display: block;
+  margin-left: 7.5rem;
   margin-bottom: 3rem;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-info {
-  width: 200px;
+  margin-left: 1rem;
   margin-top: -1rem;
-  margin-right: 2rem;
 }
 
 .contact-info p {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 .contact-links a {
@@ -369,7 +367,7 @@ hr {
 }
 
 .contact-links p {
-  font-size: .9rem;
+  font-size: 1rem;
   color: #6e61ff;
   font-family: "Permanent Marker";
 }
@@ -391,8 +389,7 @@ hr {
 form {
   display: block !important;
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10rem;
 }
 
 input {
