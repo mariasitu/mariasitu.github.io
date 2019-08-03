@@ -64,7 +64,7 @@ html, body {
 }
 
 .nav p {
-  font-size: .8rem;
+  font-size: 1rem;
   color: #383838;
 }
 
@@ -91,7 +91,7 @@ hr {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  background-color: #6e61ff;
+  background-color: #000;
   width: 100vw;
   border-bottom: 10px solid #6e61ff;
 }
@@ -100,14 +100,30 @@ hr {
   flex: .2 auto;
 }
 
+#maria-hero {
+  background-color: #000;
+  background-image: url("../images/brush.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  text-align: left;
+  width: auto;
+  padding-top: 3rem;
+  margin-left: 0;
+  padding-left: 16rem;
+}
+
+#no-line {
+  background-image:none;
+  padding-right: 10rem;
+  margin-bottom: 7rem;
+}
+
 .bio-pic {
   background-color: #000;
-  /* background-image: url("./noise.png"); */
   background-size: cover;
   background-repeat: no-repeat;
-  /* width: 100vw; */
   height: auto;
-  padding-left: 700px;
 }
 
 
@@ -130,16 +146,16 @@ hr {
 }
 
 .bio p {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .header-maria {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image: url("../images/line.svg");
+  background-image: url("../images/brush-purple.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+  background-position: 50% 40%;
 }
 
 .header-maria p {
@@ -532,7 +548,7 @@ button:active {
 #caseNavBar a {
   color: #6e61ff;
   font-family: "Permanent Marker", 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -560,6 +576,10 @@ button:active {
   padding-top: .7rem !important;
   /* border-bottom: 1px solid rgba(110,97,255, 10%); */
   box-shadow: 1px 2px 4px rgba(110, 97, 255, 30%) !important;
+}
+
+.nav-bar-long a {
+  font-size: 1rem !important;
 }
 
 
