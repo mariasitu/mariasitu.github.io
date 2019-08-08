@@ -42,7 +42,7 @@ html, body {
 }
 
 .menu-section h1 {
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
   font-size: 1rem;
   font-weight: 600;
 }
@@ -140,7 +140,7 @@ hr {
 }
 
 .bio h1 {
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
   font-size: 2.2rem;
   margin-bottom: 2rem;
 }
@@ -200,7 +200,7 @@ hr {
 
 .links h3 {
   margin: 0;
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
 }
 
 .links p {
@@ -372,7 +372,7 @@ hr {
   font-size: 1rem;
   margin-top: 2rem;
   color: #6e61ff;
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
 }
 
 .contact-form {
@@ -386,7 +386,7 @@ hr {
   width: 6rem;
   border-radius: 7%;
   background-color: #6e61ff;
-  font-family: "Permanent Marker", 'Roboto', sans-serif;
+  font-family: "Work Sans", 'Roboto', sans-serif;
 }
 
 
@@ -548,7 +548,7 @@ button:active {
 
 #caseNavBar a {
   color: #6e61ff;
-  font-family: "Permanent Marker", 'Roboto', sans-serif;
+  font-family: "Work Sans", 'Roboto', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   padding-left: 3rem;
@@ -648,7 +648,7 @@ button:active {
 
 
 .heroh1 {
-  font-family: "Permanent Marker", 'Roboto', sans-serif;
+  font-family: "Work Sans", 'Roboto', sans-serif;
   font-size: 3rem;
   font-weight: 900;
   text-shadow: none;
@@ -708,7 +708,7 @@ button:active {
 
 h2 {
   color: #383838;
-  font-family: "Permanent Marker", 'Roboto', sans-serif;
+  font-family: "Work Sans", 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 24px;
   border-bottom: 3px solid #FFE660;
@@ -853,7 +853,7 @@ h6 {
 .container h3 {
   font-size: 1.6rem;
   font-weight: 700;
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
   color: #6e61ff;
 }
 
@@ -1150,7 +1150,7 @@ h6 {
 
 .back-to-top a {
   float: right;
-  font-family: "Permanent Marker";
+  font-family: "Work Sans";
   text-decoration: none;
   color: #6E61FF;
 }
@@ -1195,14 +1195,24 @@ h6 {
   }
 
   .main-bio {
+    display: block;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 13rem;
+    padding-top: 1rem;
     background-color: #000;
   }
 
+  #maria-hero {
+    margin-left: 0;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+
   .bio-pic {
-    padding-left: 5%;
-    margin-top: 70%;
+    padding-left: 0;
+    margin-top: 1rem;
   }
 
   .bio-pic img {
@@ -1212,6 +1222,24 @@ h6 {
 
   .bio {
     margin-left:0;
+    display: block;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 3rem;
+  }
+
+  .header-maria {
+    padding-top: 0;
+  }
+
+  .header-maria h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #no-line {
+    padding-right: 0;
+    margin-bottom: 0;
   }
 
   .paragraphs {
@@ -1220,6 +1248,10 @@ h6 {
 
   .bio-paragraph {
     margin-left: 3rem;
+  }
+
+  .menu-section p {
+    display: none;
   }
 
   .links {
@@ -1255,7 +1287,7 @@ h6 {
 
   .contact {
     margin-left: 0;
-    margin-top: -4rem;
+    margin-top: -1rem;
     display: block;
     text-align: center;
   }
@@ -1263,6 +1295,7 @@ h6 {
   .contact-info {
     text-align: center;
     margin-right: auto;
+    margin-left: 0;
     width: auto;
   }
 
@@ -1273,6 +1306,7 @@ h6 {
 
   form {
     width: 100%;
+    margin-left: 0;
   }
 
 
@@ -1285,20 +1319,6 @@ h6 {
   .wrapper {
     display: block;
     overflow-x: none;
-  }
-
-  .mainBar {
-    text-align: center;
-    height: 60vw;
-    width: 100%;
-    margin: auto;
-    padding-top: 2vh;
-
-  }
-
-  .mainBar img {
-    width: 40vw;
-    height: auto;
   }
 
 
@@ -1323,7 +1343,7 @@ h6 {
     height: auto;
   }
 
-  .mainBarLong {
+  /* .mainBarLong {
     display: block;
     position: relative;
     text-align: center;
@@ -1345,7 +1365,7 @@ h6 {
   .mainHeader img {
     width: 40vw;
     height: auto;
-  }
+  } */
 
   .longh1 {
     font-size: 7vw;
@@ -1361,7 +1381,7 @@ h6 {
     display: none !important;
   }
 
-  .topnav {
+  .nav {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -1372,7 +1392,7 @@ h6 {
     border: 1px solid #6e61ff2b;
   }
 
-  .topnav > a {
+  .nav > a {
     flex: .3 auto;
     font-size: 18px;
     font-weight: medium;
@@ -1392,16 +1412,30 @@ h6 {
 
   #intro {
     display: block;
-    padding-top: 0;
+    padding-top: 12rem;
     padding-bottom: 2rem;
+    margin-left: 0;
   }
 
   .intro {
     padding-bottom: 0;
+    margin-left: 0;
+  }
+
+  #intro p {
+    max-width: none;
   }
 
   .letseat-hero {
     display: none;
+  }
+
+  #caseNavBar {
+    margin-left: 0;
+  }
+
+  #caseNavBar a {
+    font-size: 1.6rem;
   }
 
   .left-text {
@@ -1416,6 +1450,7 @@ h6 {
   .overview {
     display: block;
     padding: 0;
+    margin-left: 0;
   }
 
   .overview-hero {
@@ -1449,6 +1484,55 @@ h6 {
 
   .research {
     padding: 0;
+    margin-left: 0;
+  }
+
+  .survey-images {
+    display: block;
+    padding-left: 2rem;
+    margin-left: 0;
+  }
+
+  .survey-images img {
+    padding-right: 0;
+    width: 75vw;
+  }
+
+  .charts {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+
+  .left-text img {
+    display: none;
+  }
+
+  .takeaways {
+    display: block;
+    padding: 2rem;
+    margin-left: 0;
+  }
+
+  .takeaways li {
+    line-height: 1.5;
+    color: #383838;
+  }
+
+  .takeaways ul {
+    padding-left: 2rem;
+  }
+
+  h6 {
+    margin-left: 2rem;
+    margin-right: 0;
+  }
+
+  .takeaways h6 {
+    margin-left: 2rem;
+  }
+
+  .user-personas {
+    margin-left: 0;
   }
 
   .personas {
@@ -1458,7 +1542,12 @@ h6 {
   }
 
   .container {
-    margin: 2rem;
+    margin: 0 0.5rem 2rem 0.5rem;
+    min-width: 0;
+  }
+
+  .container h3 {
+    font-size: 2rem;
   }
 
   .row-one {
@@ -1494,43 +1583,15 @@ h6 {
 
   .competitive-analysis {
     padding: 0;
+    margin-left: 0;
   }
 
-  .survey-images {
-    display: block;
-    padding-left: 2rem;
+  .comp-analysis-button {
+    margin-left: 0;
   }
 
-  .survey-images img {
-    padding-right: 0;
-    width: 75vw;
-  }
-
-  .left-text img {
-    display: none;
-  }
-
-  .takeaways {
-    display: block;
-    padding: 2rem;
-  }
-
-  .takeaways li {
-    line-height: 1.5;
-    color: #383838;
-  }
-
-  .takeaways ul {
-    padding-left: 2rem;
-  }
-
-  h6 {
-    margin-left: 2rem;
-    margin-right: 0;
-  }
-
-  .takeaways h6 {
-    margin-left: 2rem;
+  .analysis-images {
+    margin-left: 0;
   }
 
 
@@ -1555,6 +1616,7 @@ h6 {
     padding-top: 2rem;
     width: auto;
     height: auto;
+    margin-left: 0;
   }
 
   .wireframe-sketches img {
@@ -1562,9 +1624,17 @@ h6 {
     height: auto;
   }
 
+  .wireframes {
+    margin-left: 0;
+  }
+
 
   .takeaways img {
     display: none;
+  }
+
+  .info-arch {
+    margin-left: 0;
   }
 
   .arch-text {
@@ -1609,6 +1679,10 @@ h6 {
     display: none;
   }
 
+  .user-task-images {
+    margin-left: 0;
+  }
+
   .user-task-images p {
     display: none;
   }
@@ -1633,6 +1707,14 @@ h6 {
     padding: 0;
   }
 
+  .user-testing-1 {
+    margin-left: 0;
+  }
+
+  .visual-design {
+    margin-left: 0;
+  }
+
   .testing-images {
     display: none;
   }
@@ -1641,8 +1723,24 @@ h6 {
     display: none;
   }
 
+  .logo {
+    margin-left: 0;
+  }
+
   .logos {
     display: none;
+  }
+
+  .branding {
+    margin-left: 0;
+  }
+
+  .user-persona-button {
+    padding-bottom: 1rem;
+  }
+
+  .user-test-2 {
+    margin-left: 0;
   }
 
   .user2-large {

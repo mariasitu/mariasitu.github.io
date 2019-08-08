@@ -11,7 +11,11 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="./images/ms_logo_tab.ico">
 
@@ -20,53 +24,101 @@
 
   </head>
 
+  <body>
 
-  <body class="home-body">
-
-  <header class="caseStudy">
-    <section class="mainBarLong">
-      <div class="mainHeader">
-        <a href="./index.html"><img src="./images/logo.svg" class="longlogo" alt=""></a>
-        <h1 class="longh1"><a href ="./index.html">maria situ</a></h1>
+  <div class="wrapper">
+    <div class="menu">
+        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        <!-- <h1 class="longh1"><a href ="./index.html">maria situ</a></h1> -->
         <!-- <h3>Product Designer</h3> -->
         <!-- top navigation -->
-          <div class="topnav">
-            <a href="./index.html">home</a>
-            <a href="./about.html">about me</a>
-            <a href="./contact.html">contact</a>
-          </div>
+
+        <div class="nav">
+          <a href="./index.html"><div class="menu-section">
+            <h1>WORK</h1>
+            <hr />
+            <p>View Case Studies</p>
+          </div></a>
+
+
+            <a href="./about.html"><div class="menu-section">
+              <h1>ABOUT</h1>
+              <hr />
+              <p>Who I Am</p>
+            </div></a>
+
+
+            <a href="./contact.html"><div class="menu-section">
+              <h1>CONTACT</h1>
+              <hr />
+              <p>Let's Get In Touch!</p>
+            </div></a>
+<!--
+
+            https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank">resume</a>
+          </div> -->
       </div>
-  </header>
-
-  <div class="contact"> <!-- flex wrapper -->
-    <div class="contact-heading">
-      <!-- <h1><span class="bio-yellow">Let's talk.</span></h1> -->
-      <!-- <h1>get in touch with me &#x1F447;</h1> -->
-      <h1><span class="bio-purple">"can we just talk?" - <a href ="https://youtu.be/Y1QZOprK7PQ?t=84" target="_blank">Khalid</a></span></h1>
     </div>
-    <form method="POST" action="https://formspree.io/mariasituu@gmail.com">
-      <input type="email" name="email" placeholder="Your email">
-      <textarea name="message" placeholder="Go ahead, I'm listening.."></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
+
+  <div class="main"> <!-- flex wrapper -->
+    <section class="main-bio"><a name="about-me"></a>
+      <div class="bio" id="maria-hero">
+        <div class="header-maria" id="no-line">
+          <h1>MARIA SITU</h1>
+          <p>Hi &#x1F44B;, I'm a <span class="purple-text">product designer</span></p>
+          <p>passionate about designing exceptional</p>
+          <p>visual experiences in Austin, TX.</p>
+        </div>
+      </div>
+      <div class="bio-pic">
+        <img src="./images/maria-dark.jpg" />
+      </div>
+    </section>
 
 
-  <footer class="footer">
-    <p>&#x00A9; Maria Situ 2019</p>
-  </footer>
+      <a name="contact"></a>
 
+      <div class="bio">
+        <div class="header-maria">
+          <h1>CONTACT</h1>
+          <p>Currently available for Contract or Full-Time work,</p>
+          <p>and I would love to hear from you!</p>
+        </div>
+      </div>
 
+      <div class="contact">
+        <div class="contact-info">
+          <div class="contact-links">
+            <p>Email me: </p>
+          </div>
+          <p>mariasituu@gmail.com</p>
+          <div class="contact-links">
+            <a href="http://www.linkedin.com/in/mariasitu" target="_blank"><p>Connect on Linkedin</p></a>
+            <p>Or fill out this quick form!</p>
+          </div>
+        </div> <!-- flex wrapper -->
+        <div class="contact-form">
+          <form method="POST" action="https://formspree.io/mariasituu@gmail.com">
+            <input class="form__input" type="text" id="name" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Go ahead, I'm listening.."></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143155877-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143155877-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-143155877-1');
-  </script>
+      gtag('config', 'UA-143155877-1');
+    </script>
+
+    <script src=./collapsible.js></script>
   </body>
 
 </html>
