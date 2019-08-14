@@ -27,13 +27,19 @@ html, body {
   border-right: 1px solid #6e61ff30;
 }
 
+.menu h3 {
+  line-height: .7;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .longh1 a {
   text-decoration:none;
   font-size: 1.5rem;
 }
 
 .menu img {
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 50%;
 }
 
@@ -42,19 +48,19 @@ html, body {
 }
 
 .menu-section h1 {
-  font-family: "Work Sans";
+  font-family: "Poppins";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .nav {
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 .nav a {
   font-size: 1rem;
   display: block;
-  margin-top: 10vh;
+  margin-top: 8vh;
   color: #111;
   text-decoration: none;
 }
@@ -65,7 +71,8 @@ html, body {
 
 .nav p {
   font-size: 1rem;
-  color: #383838;
+  color: #696969;
+  margin-top: 0;
 }
 
 hr {
@@ -91,9 +98,6 @@ hr {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  background-color: #000;
-  width: 100vw;
-  border-bottom: 10px solid #6e61ff;
 }
 
 .main-bio > div{
@@ -101,30 +105,29 @@ hr {
 }
 
 #maria-hero {
-  background-color: #000;
-  background-image: url("../images/brush.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* background-image: url("../images/brush.png"); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
   width: auto;
-  padding-top: 3rem;
-  margin-left: 0;
-  padding-left: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 3rem; */
 }
 
 #no-line {
   background-image:none;
-  padding-right: 10rem;
+  /* padding-right: 10rem; */
   margin-bottom: 7rem;
 }
 
-.bio-pic {
+/* .bio-pic {
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-}
+} */
 
 
 .bio-pic img {
@@ -133,20 +136,23 @@ hr {
 }
 
 .bio {
-  margin-top: 4rem;
-  margin-left: -200px;
+  margin-top: 1rem;
   background-color: white;
   margin-bottom: 2rem;
 }
 
 .bio h1 {
-  font-family: "Work Sans";
-  font-size: 2.2rem;
+  font-family: "Poppins";
+  font-size: 5rem;
   margin-bottom: 2rem;
+  font-weight: 800;
+  line-height: 1;
+
 }
 
 .bio p {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-family: "Work Sans";
 }
 
 .header-maria {
@@ -171,7 +177,6 @@ hr {
 .paragraphs {
   padding-top: 2rem;
   display: flex;
-  margin: auto;
   max-width: 1000px;
   margin-bottom: 3rem;
 }
@@ -179,13 +184,16 @@ hr {
 .bio-paragraph {
   display: block;
   text-align: left;
-  max-width: 450px;
-  margin-left: 200px;
+  margin-left: 9rem;
   line-height: 140%;
 }
 
 .bio-paragraph a {
   text-decoration: none;
+}
+
+.bio-paragraph p {
+  font-size: 1rem;
 }
 
 .purple-text {
@@ -254,12 +262,10 @@ hr {
 }
 
 .xop-container {
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-  display: block;
-  margin-left: 130px;
-  margin-right: 130px;
-  max-width: 1000px;
+  /* margin-top: 3rem; */
+  /* margin-bottom: 5rem; */
+  display: flex;
+  /* max-width: 1000px; */
 }
 
 
@@ -268,12 +274,13 @@ hr {
 }
 
 
-.xop-left {
-  background-image: url("../images/climbing-hero.png");
-  background-size: cover;
+.xop-1 {
+  background-image: url("../images/cb-hero.png");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   /* flex: .3; */
-  width: 60vw;
+  width: 40vw;
   height: 40vh;
   padding: 1rem;
   transition: all 0.2s ease-in-out;
@@ -282,15 +289,17 @@ hr {
   /* min-width: 40vw; */
   /* min-height: 30vh; */
   margin-bottom: 2rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
+  margin-right: -3rem;
 }
 
-.xop-right {
-  background-image: url("../images/lets-eat.png");
-  background-size: cover; */
+.xop-2 {
+  background-image: url("../images/le-hero.png");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   /* flex: .5; */
-  width: 60vw;
+  width: 40vw;
   height: 40vh;
   padding: 1rem;
   transition: all 0.2s ease-in-out;
@@ -298,16 +307,60 @@ hr {
   /* filter: grayscale(100%); */
   /* min-width: 40vw; */
   /* height: auto; */
-  margin-left: 1rem;
+  margin-left: -4rem;
+  margin-right: 1rem;
 }
-.xop-left:hover,
-.xop-right:hover {
-  transform: scale(1.05);
-  filter: hue-rotate(0deg);
+
+.xop-3 {
+  background-image: url("../images/db-hero.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* flex: .3; */
+  width: 40vw;
+  height: 40vh;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  /* filter: grayscale(100%); */
+  /* min-width: 40vw; */
+  /* min-height: 30vh; */
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: -3rem;
 }
+
+.xop-4 {
+  background-image: url("../images/bb-hero.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* flex: .5; */
+  width: 40vw;
+  height: 40vh;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  /* filter: grayscale(100%); */
+  /* min-width: 40vw; */
+  /* height: auto; */
+  margin-left: -4rem;
+  margin-right: 1rem;
+}
+
+.xop-1:hover,
+.xop-2:hover,
+.xop-3:hover,
+.xop-4:hover {
+  transform: scale(1.10);
+  /* filter: grayscale(10%); */
+}
+
+
+
 .xop-container h1 {
   letter-spacing: 2px;
-  font-family: "Roboto", sans-serif;
+  font-family: "work sans", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: white;
@@ -315,28 +368,6 @@ hr {
   white-space: nowrap;
 }
 
-.xop-button {
-  border-radius: 4px;
-  color: #333;
-  background-color: #fff;
-  padding: 10px 6px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  letter-spacing: 1px;
-  display: inline-block;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.5s;
-  width: 200px;
-  margin-top: 6rem;
-  margin-bottom: auto;
-}
-
-.xop-button:hover {
-  background: #6e61ff;
-  color: #fff;
-}
 
 @media only screen and (max-width: 600px) {
   .xop-container {
@@ -347,7 +378,7 @@ hr {
 
 .contact {
   display: block;
-  margin-left: 7.5rem;
+  margin-left: 17rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -387,6 +418,10 @@ hr {
   border-radius: 7%;
   background-color: #6e61ff;
   font-family: "Work Sans", 'Roboto', sans-serif;
+}
+
+#contact {
+  margin-left: 14rem;
 }
 
 
@@ -430,6 +465,7 @@ footer {
   text-align: center;
   margin: auto;
   padding-top: 2rem;
+  padding-left: 200px;
 }
 
 footer p {
@@ -439,7 +475,7 @@ footer p {
 }
 
 .mainBar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   height: 70vh;
   left: 0;
   margin-left: 40px;
@@ -449,7 +485,7 @@ footer p {
 
 h1 {
   color: #383838;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: lighter;
   font-size: 44px;
   margin-top: 50px;
@@ -459,10 +495,10 @@ h1 {
 
 
 h3 {
-  color: #6e61ff;
-  font-family: 'Roboto', sans-serif;
+  color: #696969;
+  font-family: 'Work Sans', sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   line-height: normal;
   margin: 0;
   padding-top: 10px;
@@ -470,7 +506,7 @@ h3 {
 
 
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
   margin-top: 1vh;
@@ -479,7 +515,7 @@ h4 {
 
 p {
   color: #383838;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   line-height: 160%;
 }
@@ -541,13 +577,13 @@ button:active {
   padding-bottom:.7rem;
   text-align: center;
   /* margin-top: .7rem; */
-  box-shadow: 1px 2px 4px #6e61ff30;
+  box-shadow: 1px 2px 4px #e9e9e9;
   margin-left: 200px;
 }
 
 
 #caseNavBar a {
-  color: #6e61ff;
+  color: #383838;
   font-family: "Work Sans", 'Roboto', sans-serif;
   font-size: 2rem;
   font-weight: 400;
@@ -581,13 +617,14 @@ button:active {
 
 .nav-bar-long a {
   font-size: 1rem !important;
+  color: #6e61ff !important;
 }
 
 
 /*** intro section **/
 
 .intro {
-  display: flex;
+  display: block;
   padding-top: 10vh;
   padding-bottom: 3rem;
   overflow-x: none;
@@ -596,16 +633,15 @@ button:active {
 
 
 #intro {
-  padding-top: 20vh;
   margin-left: 14rem;
 }
 
-#intro p {
-  max-width: 400px;
+#blue-background {
+  background-color: rgba(36, 60, 181, 10%);
 }
 
 .intro-climbing {
-  display: flex;
+  display: block;
   padding-left: 15rem;
   padding-bottom: 2rem;
 }
@@ -656,23 +692,26 @@ button:active {
 }
 
 .letseat-hero {
-  padding-top: 4rem;
+  padding-top: 10vh;
+  padding-left: 15%;
+  margin-left: 200px;
 }
 
 
 .letseat-hero img {
   height: auto;
-  width: 25vw;
+  width: auto;
 }
 
 /*** CLIMBING BETA ***/
 .climbing-hero img {
   height: auto;
   padding-top: 3rem;
-  margin-left: 4rem;
+  padding-left: 8%;
+  margin-left: 200px;
   margin-top: 4rem;
   margin-bottom: 2rem;
-  width: 30vw;
+  width: 50vw;
 }
 
 
@@ -686,7 +725,7 @@ button:active {
 }
 
 .overview-hero {
-  padding-top: 7rem;
+  padding-top: 3rem;
 }
 
 .overview-hero img {
@@ -759,14 +798,14 @@ h5 {
 
 .research {
   margin-left: 200px;
-  background-color: rgba(110,97,255, 5%);
+  /* background-color: rgba(255,120,112, 5%); */
   display: flex;
   justify-content: flex-start;
 }
 
 
 .survey-images {
-  background-color: rgba(110,97,255, 5%);
+  /* background-color: rgba(255,120,112, 5%); */
   margin-left: 200px;
   display: flex;
   justify-content: flex-start;
@@ -925,14 +964,14 @@ h6 {
 .user-persona-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* competitive analysis section */
 
 .competitive-analysis {
   margin-left: 200px;
-  background-color: rgba(110,97,255, 5%);
+  /* background-color: rgba(255,120,112, 5%); */
   padding-top: 1rem;
 }
 
@@ -966,7 +1005,7 @@ h6 {
 
 
 .comp-analysis-button {
-  background-color: rgba(110,97,255, 5%);
+  /* background-color: rgba(255,120,112, 5%); */
   display: flex;
   justify-content: center;
   padding-bottom: 3rem;
@@ -1089,7 +1128,6 @@ h6 {
 
 
 .user-testing-1 {
-  background-color: rgba(110,97,255, 5%);
   padding-bottom: 2rem;
   margin-left: 200px;
 }
@@ -1133,8 +1171,8 @@ h6 {
 }
 
 
-#purple-background {
-  background-color: rgba(110,97,255, 5%);
+#pink-background {
+  background-color: rgba(250,120,112, 5%);
 }
 
 

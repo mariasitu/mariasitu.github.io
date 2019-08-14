@@ -15,6 +15,7 @@
     <!-- Font Styles -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="./images/ms_logo_tab.ico">
@@ -28,26 +29,35 @@
       <div class="menu">
           <a href="./index.html"><img src="./images/logo.svg" class="longlogo" alt=""></a>
           <!-- <h1 class="longh1"><a href ="./index.html">maria situ</a></h1> -->
-          <!-- <h3>Product Designer</h3> -->
+          <h3>UX | Product</h3>
+          <h3>Designer</h3>
           <!-- top navigation -->
             <div class="nav">
-              <a href="./index.html#about-me"><div class="menu-section">
-                <h1>ABOUT</h1>
-                <hr />
-                <p>Who I Am</p>
-              </div></a>
-
-              <a href="./index.html#work"><div class="menu-section">
+              <a href="#work"><div class="menu-section">
                 <h1>WORK</h1>
                 <hr />
                 <p>View Case Studies</p>
               </div></a>
 
-              <a href="./index.html#contact"><div class="menu-section">
-                <h1>CONTACT</h1>
-                <hr />
-                <p>Let's Get In Touch</p>
-              </div></a>
+
+                <a href="#about"><div class="menu-section">
+                  <h1>ABOUT</h1>
+                  <hr />
+                  <p>Who I Am</p>
+                </div></a>
+
+
+                <a href="#contact"><div class="menu-section">
+                  <h1>CONTACT</h1>
+                  <hr />
+                  <p>Let's Get In Touch!</p>
+                </div></a>
+
+                <a href="https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank"><div class="menu-section">
+                  <h1>RESUME</h1>
+                  <hr />
+                  <p>View Resume</p>
+                </div></a>
   <!--
 
               https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank">resume</a>
@@ -60,7 +70,7 @@
     <section class="case-study">
       <div id="caseNavBar" class="nav-bar-long">
         <a href="#Overview">Overview</a>
-        <a href="#Research">Research</a>
+        <a href="#Research">Discovery</a>
         <a href="#Info">Information Architecture</a>
         <a href="#Design">Visual Design</a>
         <a href="#Final">Final Prototype</a>
@@ -69,14 +79,15 @@
 
 <!---------------- intro section ---------------->
 
-    <section class="intro-climbing">
+    <section class="intro" id="blue-background">
       <div class="climbing-hero">
         <img src="./images/climbing-mac.png" alt="project screenshot"/>
       </div>
 
-      <div class="left-text-climbing">
+      <div id="intro" class="left-text">
         <h1 class="heroh1">The Climbing Beta</h1>
-        <p>a crowd-sourced review forum and business directory website for rock climbing.</p>
+        <p>The Climbing Beta is a crowd-sourced review forum site where users can search for indoor gyms, outdoor climbing routes, and reviews and ratings to be shared with the community.</p>
+        <p>This was the capstone project for my UI/UX Bloc apprenticeship design program, we were given the creative freedom to tackle any problem we wanted to so I wanted to work on something that meant a lot to me. In order to increase the accessibility of rock climbing resources among the climbing community, I created The Climbing Beta.</p>
         <a href ="https://www.figma.com/proto/baGdMX3VUnzJeXuw7Lvp1QsA/Climbing-Review-Site?node-id=401%3A132&viewport=-172%2C-10%2C0.06960795819759369&scaling=scale-down-width" target="_blank"><h3><button>View Final Prototype</button></h3></a>
       </div>
     </section>
@@ -94,8 +105,9 @@
       <div class="left-text">
         <div class="problem">
           <h2>Problem</h2>
-          <p>Climbing is largely considered to be a friendly and social sport with great communities but users are having a hard time finding popular climbing routes and gyms while vacationing or in new areas.</p>
+          <p>Climbing is largely considered to be a friendly and social sport with great communities, but a problem I've noticed is that people are having a hard time finding popular climbing routes and gyms while visiting new or unfamiliar areas.</p>
           <p>Why is there no easy way to share knowledge about great outdoor climbs or indoor gyms?</p>
+          <p>Having experienced this problem myself and being an avid and passionate member of the rock climbing community, I decided this was a problem that I wanted to use my design skills to tackle.</p>
         </div>
 
         <div class="space-break">
@@ -105,7 +117,7 @@
         <div class="solution">
           <h2>Solution</h2>
           <p>Enter The Climbing Beta. The Climbing Beta gives users a solution for searching for climbing routes and gyms in areas they might not be familiar with.</p>
-          <p>Because the reviews and information given are 100% crowd-sourced and verified (when possible), users get the benefit of utilizing different local communities for honest and reliable reviews.</p>
+          <p>Because the reviews and information given are 100% crowd-sourced, users get the benefit of utilizing different local communities for honest and reliable reviews.</p>
         </div>
       </div>
 
@@ -121,10 +133,9 @@
       <div>
         <ul>
           <li><h5>Roles</h5></li>
-          <li><p>UX Designer</p></li>
-          <li><p>UX Researcher</p></li>
+          <li><p>UX Research</p></li>
           <li><p>Content Strategy</p></li>
-          <li><p>Visual Designer</p></li>
+          <li><p>UI Design</p></li>
           <li><p>User Testing</p></li>
         </ul>
       </div>
@@ -158,12 +169,12 @@
 <!---------------- RESEARCH section ---------------->
 
     <div id="caseNavBar">
-      <a name="Research">Research</a>
+      <a name="Research">Discovery</a>
     </div>
 
 <!---------------- user research ---------------->
 
-    <section class=research>
+    <section class=research id="blue-background">
 
       <div class="left-text">
         <h2>User Research</h2>
@@ -172,7 +183,7 @@
       </div>
     </section>
 
-    <section class="survey-images">
+    <section class="survey-images" id="blue-background">
       <div class="charts">
         <img src="./images/survey-chart-1.svg" alt="project screenshot"/>
         <img src="./images/survey-chart-2.svg" alt="project screenshot"/>
@@ -180,7 +191,7 @@
       </div>
     </section>
 
-    <section id = "purple-background" class="takeaways">
+    <section id = "blue-background" class="takeaways">
       <div class="h6-title">
         <h6>Important Takeaways</h6>
         <ul>
@@ -292,7 +303,7 @@
   </section>
 <!---------------- Competitive Analysis ---------------->
 
-    <section class="competitive-analysis">
+    <section class="competitive-analysis" id="blue-background">
 
       <div class="left-text">
         <h2>Competitive Analysis</h2>
@@ -301,7 +312,7 @@
 
     </section>
 
-    <section id="purple-background" class="comp-images">
+    <section id="blue-background" class="comp-images">
       <div class="analysis-images">
         <img src="./images/yelp.png" alt="yelp comparison"/>
         <img src="./images/facebook.png" alt="facebook comparison"/>
@@ -309,9 +320,9 @@
       </div>
     </section>
 
-    <div class="comp-analysis-button">
+    <!-- <div class="comp-analysis-button">
       <a href="https://docs.google.com/document/d/1bBJ3NSIfdIpC346dn-IOLAyjphpaROee1mh8qJYMLn8/edit?usp=sharing" target="_blank"><h3><button>View full Competitive Analysis</button></h3></a>
-    </div>
+    </div> -->
 
 
 <!-- INFORMATION ARCHITECTURE section -->
@@ -380,7 +391,7 @@
 
   <!-- wireframes -->
 
-  <section class="wireframes" id="purple-background">
+  <section class="wireframes" id="blue-background">
 
     <div class="arch-text">
       <h2>Wireframe Sketches</h2>
@@ -449,7 +460,7 @@
 
 <!-- user testing round 1 -->
 
-  <section class="user-testing-1" id="purple-background">
+  <section class="user-testing-1" id="blue-background">
 
     <div class="arch-text">
       <h2>User Testing Round 1</h2>
@@ -467,13 +478,13 @@
 
   </section>
 
-  <section id="purple-background" class="no-display">
+  <section id="blue-background" class="no-display">
     <div class="user-task-images">
       <img class="testing-images" src="./images/testing-1.png" alt="project screenshot"/>
     </div>
   </section>
 
-  <section class="user-testing-1">
+  <section class="user-testing-1" id="blue-background">
 
     <div class="arch-text">
       <h6>Side menu feedback</h6>
@@ -488,14 +499,14 @@
     </div>
   </section>
 
-  <section id="purple-background" class="no-display">
+  <section id="blue-background" class="no-display">
     <div class="user-task-images">
       <img class="testing-images" src="./images/testing-2.png" alt="project screenshot"/>
     </div>
   </section>
 
 
-  <section id="purple-background" class="takeaways">
+  <section id="blue-background" class="takeaways">
     <!-- <div class="brainstorming-image"> -->
     <div class="h6-title">
         <!-- <img src="./images/round1-takeaways.svg"/> -->
@@ -547,7 +558,7 @@
 
 
 
-  <section class="logo" id="purple-background">
+  <section class="logo" id="blue-background">
     <div class="left-text">
       <h2>Logo exploration</h2>
       <p>The logo embodies all that The Climbing Beta is in its simplest form - bold and straightforward.</p>
@@ -555,24 +566,24 @@
     </div>
   </section>
 
-  <section id="purple-background" class="user-task-images">
+  <section id="blue-background" class="user-task-images">
     <div class="brainstorming-image">
       <img class="logos" src="./images/logo-brainstorming.png" alt="project screenshot"/>
       <p>Brainstorming and moodboard photos</p>
     </div>
   </section>
 
-  <section class="brainstorming-image-mobile" id="purple-background">
+  <section class="brainstorming-image-mobile" id="blue-background">
     <img src="./images/logo-mobile.svg" />
   </section>
 
-  <section id="purple-background" class="takeaways">
+  <section id="blue-background" class="takeaways">
     <div class="brainstorming-image">
       <img class="final-logo" src="./images/final-logo.svg" alt="project screenshot"/>
     </div>
   </section>
 
-  <section class="brainstorming-image-mobile" id="purple-background">
+  <section class="brainstorming-image-mobile" id="blue-background">
     <img src="./images/final-logo-mobile.svg" />
     <div class="user-persona-button">
       <h3><button>View Logo Iterations</button></h3>
@@ -612,7 +623,7 @@
 
   <!-- User testing Round 2 -->
 
-  <section id="purple-background">
+  <section id="blue-background">
 
   <div class="user-test-2">
     <div class="arch-text">
@@ -719,7 +730,7 @@
 
   <!-- LESSONS LEARNED SECTION -->
 
-  <section id="purple-background"><a name="Final"></a>
+  <section id="blue-background"><a name="Final"></a>
 
     <div class="analysis-images">
       <div class="left-text">
@@ -737,9 +748,8 @@
 
   </section>
 
-
-  <footer class="footer" id="purple-background">
-    <p>&#x00A9; Maria Situ 2019</p>
+  <footer class="footer">
+    <p>&#x00A9; Designed and Developed by Maria Situ 2019</p>
   </footer>
 
 
