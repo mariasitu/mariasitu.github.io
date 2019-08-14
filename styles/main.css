@@ -1238,7 +1238,6 @@ h6 {
     margin-right: 0;
     margin-top: 13rem;
     padding-top: 1rem;
-    background-color: #000;
   }
 
   #maria-hero {
@@ -1298,30 +1297,31 @@ h6 {
   }
 
   .xop-container {
+    display: block;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
 
-  .xop-left {
-    width: auto;
+  .xop-1,
+  .xop-3 {
+    width: 90vw;
     height: 40vh;
     margin-left: 0;
-    filter: none;
-    background-position: left;
-  }
-
-  .xop-right {
-    width: auto;
-    height: 40vh;
-    margin-left: 0;
+    margin-right: 0;
     filter: none;
   }
 
-  /* .xop-button {
-    display: none;
-  } */
+  .xop-2,
+  .xop-4 {
+    width: 90vw;
+    height: 40vh;
+    margin-left: 0;
+    margin-right: 0;
+    filter: none;
+  }
+
 
   .contact {
     margin-left: 0;
