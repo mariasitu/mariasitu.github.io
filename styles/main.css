@@ -65,18 +65,18 @@ html, body {
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:active {
   color: #6e61ff;
 }
 
 .nav p {
-  font-size: 1rem;
+  font-size: .875rem;
   color: #696969;
   margin-top: 0;
 }
 
 hr {
-  border: 2px solid #6e61ff;
+  border: 1px solid #6e61ff75;
   margin-left: 4rem;
   margin-right: 4rem;
 }
@@ -585,7 +585,7 @@ button:active {
 #caseNavBar a {
   color: #383838;
   font-family: "Work Sans", 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -628,12 +628,18 @@ button:active {
   padding-top: 10vh;
   padding-bottom: 3rem;
   overflow-x: none;
-  margin-left: 8rem;
+  margin-left: 4rem;
 }
 
+.intro-2 {
+  display: block;
+  margin-bottom: 5rem;
+  margin-top: -3rem;
+}
 
 #intro {
   margin-left: 14rem;
+  margin-bottom: -5rem;
 }
 
 #blue-background {
@@ -650,7 +656,7 @@ button:active {
 .left-text {
   color: #383838;
   justify-content: flex-start;
-  margin-left: 8rem;
+  margin-left: 4rem;
   margin-right: 2rem;
   min-width: 400px;
   padding-bottom: 3rem;
@@ -692,15 +698,22 @@ button:active {
 }
 
 .letseat-hero {
-  padding-top: 10vh;
-  padding-left: 15%;
-  margin-left: 200px;
+  /* padding-left: 15%; */
+  margin-left: 140px;
+  display: flex;
 }
 
 
 .letseat-hero img {
   height: auto;
-  width: auto;
+  width: 45vw;
+}
+
+.eat-right {
+  max-width: 450px !important;
+  margin-left: -3rem;
+  margin-top: 5rem;
+  max-width: 1200px;
 }
 
 /*** CLIMBING BETA ***/
@@ -721,6 +734,7 @@ button:active {
   display: flex;
   margin-left: 200px;
   padding-top: 2rem;
+  padding-left: 2rem;
   max-width: 80vw;
 }
 
@@ -758,7 +772,6 @@ h2 {
 
 .ux-list {
   display: flex;
-  margin-left: 250px;
   padding-bottom: 2rem;
 }
 
@@ -766,16 +779,18 @@ h2 {
 .ux-list ul {
   list-style: none;
   padding: 0;
-  text-align: center;
+  text-align: left;
+  margin-bottom: -2rem;
 }
 
 .ux-list ul li p {
   padding: 0 !important;
+  line-height: 1.1;
 }
-
+/*
 .ux-list > div {
   flex: .3 auto;
-}
+} */
 
 
 h5 {
@@ -787,17 +802,24 @@ h5 {
 .ux-list h5 {
   border-bottom: 2px solid #6E61FF;
   color: #383838;
-  font-size: 14px;
+  font-size: 1.2rem;
   font-weight:bold;
   width: fit-content;
-  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding-top: 3rem;
 }
 
+.list-2 {
+  display: block;
+  max-width: 450px;
+  margin-right: 2rem;
+}
 
 /* research section */
 
 .research {
   margin-left: 200px;
+  padding-left: 2rem;
   /* background-color: rgba(255,120,112, 5%); */
   display: flex;
   justify-content: flex-start;
@@ -973,6 +995,7 @@ h6 {
   margin-left: 200px;
   /* background-color: rgba(255,120,112, 5%); */
   padding-top: 1rem;
+  padding-left: 2rem;
 }
 
 .user2 {
@@ -1058,7 +1081,7 @@ h6 {
   font-size: 1rem;
   align-content: center;
   justify-content: center;
-  max-width: 800px;
+  max-width: 900px;
   padding-right: 2rem;
 }
 
