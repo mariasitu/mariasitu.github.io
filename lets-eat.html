@@ -7,9 +7,13 @@
     <!-- Material Design Lite -->
     <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
     <!-- NOMALIZE.CSS  -->
     <link rel="stylesheet" href="styles/normalize.css" />
     <!-- Custom Styles -->
+
     <link rel="stylesheet" href="styles/main.css" />
 
     <!-- font styles -->
@@ -43,11 +47,11 @@
                 <p>Who I Am</p>
               </div></a>
 
-              <a href="./contact.html"><div class="menu-section">
+              <!-- <a href="./contact.html"><div class="menu-section">
                 <h1>CONTACT</h1>
                 <hr />
                 <p>Let's Get In Touch</p>
-              </div></a>
+              </div></a> -->
 
               <a href="https://drive.google.com/open?id=1vQ2P-bRSwa4ydUXvRVtRIEJ2SxHTL0iU" target="_blank"><div class="menu-section">
                 <h1>RESUME</h1>
@@ -76,14 +80,26 @@
         <img src="./images/main-hero-images1.png" alt="project screenshot"/>
         <div class="eat-right">
           <h1 class="heroh1">let's eat</h1>
-          <p>Let's eat is a mobile application that helps users organize various types of data while planning dinner events.</p>
-          <a href ="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let-s-eat?node-id=721%3A6180&viewport=333%2C323%2C0.10184585303068161&scaling=scale-down" target="_blank"><h3><button>View Final Prototype</button></h3></a>
+          <p>Let's eat is a mobile application that makes dinner planning simpler by helping users organize event data, share location and contact information, and collaborate more easily.</p>
+          <a href ="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let-s-eat?node-id=721%3A6180&viewport=333%2C323%2C0.10184585303068161&scaling=scale-down" target="_blank"><h3><button>View Mobile Prototype</button></h3></a>
         </div>
       </div>
+
+    </section>
+      <a name="Overview"></a>
+
+  <!---------------- overview section ---------------->
+
+      <div id="caseNavBar">
+        <a name="Overview">Overview</a>
+      </div>
+
+    <section class="intro">
       <section class="intro-2">
         <div id="intro" class="left-text">
-          <p>This was the first project I completed in my design apprenticeship at Bloc. We were given the challenge to create an application with no contraints except that it had to include cloud storage features such as collaboration, sharing, saving text, data, and other information.</p>
-          <p>It just so happened that at the time, a friend and I were struggling to plan a dinner between a group of people and voila! A project idea was born!</p>
+          <h2>Background</h2>
+          <p>This was the first full-scale design project I completed during my apprenticeship with Bloc. We were given the challenge to create an application with no specifications or contraints except that the solution had to include features of organization, collaboration, sharing, and storing information.</p>
+          <p>While brainstorming ideas for this assignment, it just so happened that at the time a friend and I were struggling with managing all the details to plan an intimate dinner event and voila, the project was born!</p>
         </div>
 
         <div class="ux-list" id="intro">
@@ -91,7 +107,7 @@
             <div>
               <ul>
                 <li><h5>Roles</h5></li>
-                <li><p>User Research, Content Strategy, UI Design, User Testing</p></li>
+                <li><p>UX Research, Content Strategy, UI Design, User Testing</p></li>
               </ul>
             </div>
             <div>
@@ -112,7 +128,7 @@
             <div>
               <ul>
                 <li><h5>Timeframe</h5></li>
-                <li><p>1 month</p></li>
+                <li><p>2 months</p></li>
               </ul>
             </div>
           </div>
@@ -120,13 +136,6 @@
       </section>
     </section>
 
-    <a name="Overview"></a>
-
-<!---------------- overview section ---------------->
-
-    <div id="caseNavBar">
-      <a name="Overview">Overview</a>
-    </div>
 
     <section class="overview">
 
@@ -167,24 +176,64 @@
 <!---------------- user research ---------------->
 
     <section class=research>
-
       <div class="left-text">
-        <h2>User Research</h2>
-        <p>To kick off this project, I decided to create a user survey in order to find out what platforms people were using the most for event planning. Key factors that I wanted to examine were also users' levels of interest for app features that involved content creation, sharing, organizing, and collaborating.</p>
-        <p>The three most popular platforms were: Google Drive, Pinterest, and Dropbox.</p>
-        <p>Some interesting points that I discovered were that:</p>
+        <h2>Initial Research</h2>
+        <p>Given the inexpensive nature of online user surveys, the ease of accessbility, and the quick response time, I decided to conduct a user survey in order to find out more users' event planning behaviors.</p>
+        <p>Key factors that I wanted to examine were the different types of data files users interacted with, popular features, and user needs and frustrations.</p>
+        <h6>Key survey insights:</h6>
+        <h3>Which platforms do you currently use for event planning?</h3>
+        <div class="survey-stats">
+          <div class="numbers">
+            <h3>Google</h3>
+            <h4>100%</h4>
+          </div>
+          <div class="numbers">
+            <h3>Dropbox</h3>
+            <h4>72%</h4>
+          </div>
+          <div class="numbers">
+            <h3>Pinterest</h3>
+            <h4>66%</h4>
+          </div>
+        </div>
+        <h3>What kind of files do you interact with the most?</h3>
+        <div class="survey-stats">
+          <div class="numbers">
+            <h3>Images including PDFs</h3>
+            <h4>86%</h4>
+          </div>
+          <div class="numbers">
+            <h3>Data including spreadsheets</h3>
+            <h4>73%</h4>
+          </div>
+          <div class="numbers">
+            <h3>Text files</h3>
+            <h4>66%</h4>
+          </div>
+        </div>
+        <h3>What is your favorite feature about these platforms?</h3>
+        <div class="survey-stats">
+          <h3>"Accessibility from any device and location"</h3>
+          <h3>"Easy messaging and collaboration"</h3>
+          <h3>"You can save files and share easily"</h3>
+        </div>
+        <h3>What are some features you would like to see improvements on?</h3>
+        <div class="survey-stats">
+          <h3>"Increased organization options"</h3>
+          <h3>"Make it more user friendly"</h3>
+          <h3>"More collaboration and productivity features"</h3>
+        </div>
       </div>
-
-        <!-- <a href="https://docs.google.com/document/d/1ND0pj4ULEWHnRHvU8i0FZ5dFcmXQ1aEcpXSWaHi17eI/edit?usp=sharing" target="_blank"><h3><button>View full Survey Results</button></h3></a> -->
     </section>
 
+<!--
     <section class="survey-images">
       <div class="charts">
         <img src="./images/survey-chart-1.svg" alt="project screenshot"/>
         <img src="./images/survey-chart-2.svg" alt="project screenshot"/>
         <img src="./images/survey-chart-3.svg" alt="project screenshot"/>
       </div>
-    </section>
+    </section> -->
 
     <section class="takeaways">
       <div class="h6-title">
@@ -203,7 +252,7 @@
 
           <div class="left-text">
             <h2>Scoping out the competition</h2>
-            <p>Keeping in mind the key takeaways from the user survey, I conducted a competitive analysis between the most popular cloud storage platforms with features similar to what potential users stated they wanted to see in the app.</p>
+            <p>Keeping in mind the key takeaways from the user survey, I conducted a competitive analysis between the most popular platforms. features similar to what potential users stated they wanted to see in the app.</p>
           </div>
 
         </section>
@@ -225,9 +274,29 @@
   <section class="user-personas">
     <div class="left-text">
       <h2>User Personas</h2>
-      <p>Using the data gathered from the survey, I created 3 tiers of potential user personas: Low, Medium, and High involvement.</p>
-      <p>A summary of the low and high involvment tiers are shown below.</p>
+      <p>Based on the the key discoveries from the user survey and competitive analysis, I created three tiers of potential user personas that covered the spectrum of involvement: low, medium, and high.</p>
     </div>
+
+    <div class="w3-content" style="max-width:800px">
+      <img class="mySlides" src="./images/kevin-big.png" style="width:100%;display:none">
+      <img class="mySlides" src="./images/carmen-big.png" style="width:100%">
+      <img class="mySlides" src="./images/kelly-big.png" style="width:100%;display:none">
+
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="./images/kevin-big.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="./images/carmen-big.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="./images/kelly-big.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+        </div>
+      </div>
+    </div>
+
+
+
 
     <section class="user-persona-images">
       <div class="personas">
@@ -315,9 +384,10 @@
 
     </section>
 
+<!--
     <div class="user-persona-button">
       <a href="https://www.figma.com/proto/faryxRZ4uwsTpzUZ4ZIwDxY2/User-Personas?node-id=32%3A6&viewport=15%2C-11%2C0.2918793559074402&scaling=min-zoom" target="_blank"><h3><button>View full User Personas</button></h3></a>
-    </div>
+    </div> -->
   </section>
 
 
@@ -526,12 +596,11 @@
   <div id="caseNavBar">
     <a name="Design">Visual Design</a>
   </div>
-  <div class="visual-design">
+  <!-- <div class="visual-design"> -->
 
-    <div class="left-text">
+    <!-- <div class="left-text">
       <h2>Brand Concept</h2>
-      <p>The entire concept of the application is simplicity. We wanted to take a process that is relatively difficult (on a good day) and make it simpler.</p>
-      <p>We started by brainstorming words and themes for the logo. Based off that, we started to look at symbols and motifs that could accurately represent the application and its intended uses.</p>
+      <p>Keeping in mind the that the biggest motivating force behind the application is simplicity, I began my search for a brand identity and came up with these three themes:</p>
     </div>
 
     <section class="user-task-images" id="no-display">
@@ -539,15 +608,15 @@
         <img class="moodboard" src="./images/moodboard.png" alt="project screenshot"/>
         <p>Brainstorming and moodboard photos</p>
       </div>
-    </section>
-
+    </section> -->
+<!--
     <section id="sketches-mobile" class="brainstorming-image-mobile">
       <img src="./images/branding-mobile.png" />
       <div class="user-persona-button">
         <h3><button>View Brainstorming Photos</button></h3>
       </div>
     </section>
-  </div>
+  </div> -->
 
 
 <!-- Logo exploration -->
@@ -565,7 +634,7 @@
   <section class="user-task-images">
     <div class="brainstorming-image">
       <img class="logos" src="./images/logo-brainstorming.png" alt="project screenshot"/>
-      <p>Brainstorming and moodboard photos</p>
+      <p>Brainstorming logo iterations</p>
     </div>
   </section>
 
@@ -592,8 +661,10 @@
 
   <div class="branding">
     <div class="left-text">
-      <h2>Colorography & Typography</h2>
-      <img class="testing-images" src="./images/colorography.svg" alt="project screenshot"/>
+      <h2>Branding Guidelines</h2>
+      <img class="testing-images" src="./images/styleguide.svg" alt="project screenshot"/>
+      <p>While searching for the right color for this brand, we wanted to find something that embodied the millenial struggle and something that appealed to young professionals - fun, reliable, and vibrant.<br /><br />Pantone says that <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019"<b>Living Coral</b></a> "symbolizes our innate need for optimism and joyful pursuits - a feeling that, perhaps, people might be craving in today's landscape".</p>
+      <p>Staying true to the intended nature of the app - being simple to use, it made the most sense to go with a monochromatic color scheme to let the vibrancy of the Living Coral shine through.<br /><br />For that reason, we decided to pair the coral with warm grays and a soft black.<br /><br />Deciding to use Roboto as a font type was a no-brainer. It is a popular sans-serif font that many users recognize and has 12 styles within the font family alone. This eliminates the need to pair it with another font to create contrast when needed.</p>
     </div>
 
     <section class="brainstorming-image-mobile">
@@ -601,20 +672,17 @@
     </section>
 
 
-    <div class="list-text" id="extra-space">
-      <p>While searching for the right color for this brand, we wanted to find something that embodied the millenial struggle and something that appealed to young professionals - fun, reliable, and vibrant.<br /><br />Pantone says that <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019"<b>Living Coral</b></a> "symbolizes our innate need for optimism and joyful pursuits - a feeling that, perhaps, people might be craving in today's landscape".</p>
-      <p>Staying true to the intended nature of the app - being simple to use, it made the most sense to go with a monochromatic color scheme to let the vibrancy of the Living Coral shine through.<br /><br />For that reason, we decided to pair the coral with warm grays and a soft black.<br /><br />Deciding to use Roboto as a font type was a no-brainer. It is a popular sans-serif font that many users recognize and has 12 styles within the font family alone. This eliminates the need to pair it with another font to create contrast when needed.</p>
-    </div>
-
     <section class="brainstorming-image-mobile">
       <img src="./images/typography-mobile.svg" />
     </section>
-    <div class="user-persona-button">
+    <!-- <div class="user-persona-button">
       <a href="https://drive.google.com/open?id=1rtx43xJaS26nhfndEJNzakCdPXO7i82r" target="_blank"><h3><button>View Styleguide</button></h3></a>
-    </div>
+    </div> -->
   </div>
 
-
+  <div id="caseNavBar">
+    <a name="Design">User testing and iterations</a>
+  </div>
 
 
   <!-- User testing Round 2 -->
@@ -717,9 +785,6 @@
       </div>
     </section>
 
-    <div class="user-persona-button">
-      <a href="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let's-eat?node-id=721%3A6180&viewport=323%2C323%2C0.10184585303068161&scaling=scale-down&redirected=1" target="_blank"><h3><button>View Final Prototype</button></h3></a>
-    </div>
   </div>
 
 
@@ -735,6 +800,10 @@
         <p>The journey of let’s eat is a tale fraught full of scope creep issues, questions about logo branding and identity, and endless iteration in order to solve the problem of the difficulties associated with dinner planning. Users liked how clean the UI looked and navigating the application was very intuitive.</p>
         <p>Given more time and love, this application would likely explore features such as external calendar syncing and the ability to create to-do lists and assigning tasks to event attendees.</p>
       </div>
+
+      <div class="user-persona-button">
+        <a href="https://www.figma.com/proto/BXj7hZEGvkhCTBGMULPUIiok/let's-eat?node-id=721%3A6180&viewport=323%2C323%2C0.10184585303068161&scaling=scale-down&redirected=1" target="_blank"><h3><button>View Final Prototype</button></h3></a>
+      </div>
     </div>
 
 
@@ -749,6 +818,8 @@
     <p>&#x00A9; Designed and Developed by Maria Situ 2019</p>
   </footer>
 
+
+  <script src="./modal.js"></script>
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
