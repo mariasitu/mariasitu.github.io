@@ -25,7 +25,7 @@ html, body {
   padding-top: 20px;
   display: block;
   text-align: center;
-  border-right: 1px solid #6e61ff30;
+  border-right: 1px solid #38383820;
 }
 
 .menu h3 {
@@ -293,7 +293,7 @@ hr {
 
 
 #coming-soon {
-  margin-left: 8rem;
+  margin-left: 10rem;
 }
 
 
@@ -859,7 +859,7 @@ h5 {
   /* background-color: rgba(255,120,112, 5%); */
   display: flex;
   justify-content: flex-start;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 .research h3 {
@@ -1290,6 +1290,7 @@ h6 {
   color: #383838;
   padding: 2rem;
   margin: 0;
+  display: block;
 }
 
 .back-to-top a {
@@ -1303,6 +1304,25 @@ h6 {
   margin-left: 200px;
 }
 
+.footer-icons img {
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+}
+
+
+/******************* DROPBOX *********************/
+
+#dropbox-back {
+  background-color: #0975E210;
+}
+
+.research-db {
+  margin-left: 200px;
+}
+
+#minus-margin-b {
+  margin-bottom: -3rem;
+}
 
 
 

@@ -12,42 +12,51 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css" />
 
+    <!-- Font Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" href="./images/ms_logo_tab.ico">
 
   </head>
 
 
   <body>
+    <a name="intro"></a>
     <div class="wrapper">
       <div class="menu">
           <a href="./index.html"><img src="./images/logo.svg" class="longlogo" alt=""></a>
           <!-- <h1 class="longh1"><a href ="./index.html">maria situ</a></h1> -->
-          <!-- <h3>Product Designer</h3> -->
+          <h3>Product Designer</h3>
           <!-- top navigation -->
             <div class="nav">
-
-              <a href="./index.html#work"><div class="menu-section">
+              <a href="./index.html"><div class="menu-section">
                 <h1>WORK</h1>
                 <hr />
                 <p>View Case Studies</p>
               </div></a>
 
-              <a href="./index.html#about-me"><div class="menu-section">
-                <h1>ABOUT</h1>
-                <hr />
-                <p>Who I Am</p>
-              </div></a>
+
+                <a href="./about.html"><div class="menu-section">
+                  <h1>ABOUT</h1>
+                  <hr />
+                  <p>Who I Am</p>
+                </div></a>
 
 
+                <!-- <a href="#contact"><div class="menu-section">
+                  <h1>CONTACT</h1>
+                  <hr />
+                  <p>Let's Get In Touch!</p>
+                </div></a> -->
 
-              <a href="./index.html#contact"><div class="menu-section">
-                <h1>CONTACT</h1>
-                <hr />
-                <p>Let's Get In Touch</p>
-              </div></a>
+                <a href="https://drive.google.com/open?id=1vQ2P-bRSwa4ydUXvRVtRIEJ2SxHTL0iU" target="_blank"><div class="menu-section">
+                  <h1>RESUME</h1>
+                  <hr />
+                  <p>View Resume</p>
+                </div></a>
   <!--
 
               https://drive.google.com/open?id=187PQb2g5rPR0UL19GhWNwyZkQ92yjouj" target="_blank">resume</a>
@@ -57,90 +66,104 @@
     </div>
 
 
-    <!---------------- intro section ---------------->
+    <!-- <section class="case-study">
+      <div id="caseNavBar" class="nav-bar-long">
+        <a href="#Overview">Overview</a>
+        <a href="#Research">Discovery</a>
+        <a href="#Info">Information Architecture</a>
+        <a href="#Design">Visual Design</a>
+        <a href="#Final">Final Prototype</a>
+      </div>
+    </section> -->
 
-        <section class="intro-climbing" id="purple-background">
-          <div class="climbing-hero">
-            <img src="./images/climbing-mac.png" alt="project screenshot"/>
-          </div>
+<!---------------- intro section ---------------->
 
-          <div class="left-text-climbing">
-            <h1 class="heroh1">The Climbing Beta</h1>
-            <p>a crowd-sourced review forum and business directory site for rock climbing.</p>
-            <a href ="https://www.figma.com/proto/baGdMX3VUnzJeXuw7Lvp1QsA/Climbing-Review-Site?node-id=401%3A132&viewport=-172%2C-10%2C0.06960795819759369&scaling=scale-down-width" target="_blank"><h3><button>View Final Prototype</button></h3></a>
-          </div>
-        </section>
+    <section class="intro" id="blue-background">
+      <div class="letseat-hero">
+        <img src="./images/climbing-mac.png" alt="project screenshot"/>
+        <div class="eat-right">
+          <h1 class="heroh1">The Climbing Beta</h1>
+          <p>The Climbing Beta is a crowd-sourced review forum site where users can search for indoor gyms, outdoor climbing routes, and reviews and ratings to be shared with the community.</p>
+          <a href ="https://www.figma.com/proto/baGdMX3VUnzJeXuw7Lvp1QsA/Climbing-Review-Site?node-id=401%3A132&viewport=-172%2C-10%2C0.06960795819759369&scaling=scale-down-width" target="_blank"><h3><button>View Desktop Prototype</button></h3></a>
+        </div>
+      </div>
+    </section>
+
+    <a name="Overview"></a>
+
+<!---------------- overview section ---------------->
+
+    <div id="caseNavBar">
+      <a name="Overview">Overview</a>
+    </div>
 
 
-        <div id="caseNavBar">
-          <a name="Overview">Overview</a>
+    <section class="intro">
+      <section class="intro-2">
+        <div id="intro" class="left-text">
+          <h2>Background</h2>
+          <p>This was the capstone project for my UI/UX Bloc apprenticeship design program, we were given the creative freedom to tackle any problem we wanted to so I wanted to work on something that meant a lot to me. In order to increase the accessibility of rock climbing resources among the climbing community, I created The Climbing Beta.</p>
         </div>
 
-        <section class="overview">
-
-          <div class="left-text">
-            <div class="problem">
-              <h2>Problem</h2>
-              <p>Climbing is largely considered to be a friendly and social sport with great communities but users are having a hard time finding popular climbing routes and gyms while vacationing or in new areas.</p>
-              <p>Why is there no easy way to share knowledge about great outdoor climbs or indoor gyms?</p>
+        <div class="ux-list" id="intro">
+          <div class="list-2">
+            <div>
+              <ul>
+                <li><h5>Roles</h5></li>
+                <li><p>UX Research, Content Strategy, UI Design, User Testing</p></li>
+              </ul>
             </div>
-
-            <div class="space-break">
-              <br />
-            </div>
-
-            <div class="solution">
-              <h2>Solution</h2>
-              <p>Enter The Climbing Beta. The Climbing Beta gives users a solution for searching for climbing routes and gyms in areas they might not be familiar with.</p>
-              <p>Because the reviews and information given are 100% crowd-sourced and verified (when possible), users get the benefit of utilizing different local communities for honest and reliable reviews.</p>
+            <div>
+              <ul>
+                <li><h5>Deliverables</h5></li>
+                <li><p>User surveys, Competitive analysis, User personas, User stories, User flows, Wireframes, High-fidelity mockups, Clickable prototypes</p></li>
+              </ul>
             </div>
           </div>
 
-          <div class="overview-climbing-hero">
-            <img src="./images/abp.png" alt="project screenshot"/>
+          <div class="list-2">
+            <div>
+              <ul>
+                <li><h5>Tools</h5></li>
+                <li><p>Adobe Photoshop, Figma, InVision, UsabilityHub, GitHub, Google Forms</p></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><h5>Timeframe</h5></li>
+                <li><p>2 months</p></li>
+              </ul>
+            </div>
           </div>
+        </div>
+      </section>
+    </section>
 
-        </section>
+    <section class="overview">
 
+      <div class="left-text">
+        <div class="problem">
+          <h2>Problem</h2>
+          <p>Climbing is largely considered to be a friendly and social sport with great communities, but a problem I've noticed is that people are having a hard time finding popular climbing routes and gyms while visiting new or unfamiliar areas.</p>
+          <p>Why is there no easy way to share knowledge about great outdoor climbs or indoor gyms?</p>
+          <p>Having experienced this problem myself and being an avid and passionate member of the rock climbing community, I decided this was a problem that I wanted to use my design skills to tackle.</p>
+        </div>
 
-        <section class="ux-list">
+        <div class="space-break">
+          <br />
+        </div>
 
-          <div>
-            <ul>
-              <li><h5>Roles</h5></li>
-              <li><p>UX Designer</p></li>
-              <li><p>UX Researcher</p></li>
-              <li><p>Content Strategy</p></li>
-              <li><p>Visual Designer</p></li>
-              <li><p>User Testing</p></li>
-            </ul>
-          </div>
+        <div class="solution">
+          <h2>Solution</h2>
+          <p>Enter The Climbing Beta. The Climbing Beta gives users a solution for searching for climbing routes and gyms in areas they might not be familiar with.</p>
+          <p>Because the reviews and information given are 100% crowd-sourced, users get the benefit of utilizing different local communities for honest and reliable reviews.</p>
+        </div>
+      </div>
 
-          <div>
-            <ul>
-              <li><h5>Deliverables</h5></li>
-              <li><p>Competitive Analysis</p></li>
-              <li><p>User Stories & User Personas</p></li>
-              <li><p>User Surveys & User Flows</p></li>
-              <li><p>Style Guide</p></li>
-              <li><p>Lo-Fidelity Wireframes</p></li>
-              <li><p>High-Fidelity Mockups</p></li>
-              <li><p>Clickable Prototypes</p></li>
-            </ul>
-          </div>
-
-          <div>
-            <ul>
-              <li><h5>Tools</h5></li>
-              <li><p>Sketch pad</p></li>
-              <li><p>Figma</p></li>
-              <li><p>Adobe Photoshop</p></li>
-              <li><p>InVision</p></li>
-              <li><p>Zoom</p></li>
-            </ul>
-          </div>
-
-        </section>
+      <div class="overview-climbing-hero">
+        <img src="./images/abp.png" alt="project screenshot"/>
+      </div>
+    </section>
 
         <div class="left-text">
           <div class="Problem" id="coming-soon">
@@ -148,6 +171,12 @@
           </div>
         </div>
 
-
+        <footer class="footer">
+          <div class="footer-icons">
+            <a href="mailto:mariasituu@gmail.com"><img src="./images/mail-icon.png"></a>
+            <a href="https://linkedin.com/in/mariasitu" target="_blank"><img src="./images/li-icon.png"></a>
+          </div>
+          <p>&#x00A9; Designed and Developed by Maria Situ 2019</p>
+        </footer>
 
     </body>
