@@ -1,0 +1,30 @@
+button {
+  background-color: #0975E2;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: #0975E2;
+  cursor: pointer;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+h2 {
+  border-bottom: 3px solid #0975E2;
+}
+
+h6 {
+  border-bottom: 3px solid #627282;
+}
+
+.ux-list h5 {
+  border-bottom: 2px solid #627282;
+}
+
+.list-text li {
+  color: #627282;
+}
