@@ -28,3 +28,12 @@ h6 {
 .list-text li {
   color: #8E8E93;
 }
+
+.side-by-side {
+  display: flex;
+  justify-content: center;
+}
+
+.side-by-side>li{
+  padding-right: 2rem;
+}
