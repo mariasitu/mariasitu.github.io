@@ -37,3 +37,12 @@ h6 {
 .side-by-side>li{
   padding-right: 2rem;
 }
+
+.w3-content {
+  display: none;
+}
+
+.climb-edit {
+  width: 30vw;
+  height: auto;
+}
